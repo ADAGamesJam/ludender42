@@ -9,11 +9,13 @@ public class PausePanel : MonoBehaviour {
 
     public GameObject pausePanel;
     public GameObject pauseButton;
+    public GameObject bagpackButton;
 
     public void GamePause()
     {
         pausePanel.SetActive(true);
         pauseButton.SetActive(false);
+        bagpackButton.SetActive(false);
 
     }
 
@@ -21,6 +23,7 @@ public class PausePanel : MonoBehaviour {
     {
         pausePanel.SetActive(false);
         pauseButton.SetActive(true);
+        bagpackButton.SetActive(true);
 
     }
 
@@ -29,6 +32,7 @@ public class PausePanel : MonoBehaviour {
 
         pausePanel.SetActive(false);
         pauseButton.SetActive(true);
+        bagpackButton.SetActive(true);
 
         SceneManager.LoadScene("SampleScene");
 
@@ -38,6 +42,7 @@ public class PausePanel : MonoBehaviour {
     {
         pausePanel.SetActive(false);
         pauseButton.SetActive(true);
+        bagpackButton.SetActive(true);
 
         SceneManager.LoadScene("MainMenu");
 
