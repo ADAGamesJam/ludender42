@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 Temp/UnityTempFile-2ef15a9509906474f9dd32f4a079a3b1
 Temp/UnityTempFile-2b0118a4f6b254f4e8a8f95f25a243c1
@@ -47,3 +48,9 @@ Temp/UnityTempFile-66a5ea5c42d26234baf7753f42a89a27
 Temp/UnityTempFile-5fe964a5ef6f8bf4897518f9631c3beb
 Temp/UnityTempFile-10a304a325f91014faa0ba006fa457f2
 Temp/UnityTempFile-318c8c917ac1b7e4fbcae3e45d3e132f
+=======
+Temp/
+Library/
+Assembly-CSharp-Editor.csproj
+Assembly-CSharp.csproj
+>>>>>>> d33201845c7c7563dc4343cf2398eeb4e715825e
