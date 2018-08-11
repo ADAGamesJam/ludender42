@@ -1633,6 +1633,7 @@ MonoBehaviour:
   tilemap: {fileID: 1473089282}
   tileSize: 0
   keystrokePause: 0.2
+  heroMoved: 0
 --- !u!1 &697405123
 GameObject:
   m_ObjectHideFlags: 0
@@ -1708,6 +1709,48 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 697405123}
   m_CullTransparentMesh: 0
+--- !u!1 &698968439
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 698968441}
+  - component: {fileID: 698968440}
+  m_Layer: 0
+  m_Name: AIManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &698968440
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 698968439}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d9a1f7a5c92dc9478bec6a7924e5f31, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyList: []
+  renderManager: {fileID: 0}
+--- !u!4 &698968441
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 698968439}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.5, y: 10.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &864191411
 GameObject:
   m_ObjectHideFlags: 0
@@ -3561,7 +3604,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1492008888}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.49894214, y: -1.889704, z: -10}
+  m_LocalPosition: {x: 0.49893856, y: -1.8871896, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -3924,6 +3967,7 @@ GameObject:
   - component: {fileID: 1821193645}
   - component: {fileID: 1821193649}
   - component: {fileID: 1821193648}
+  - component: {fileID: 1821193650}
   m_Layer: 9
   m_Name: Enemy
   m_TagString: Untagged
@@ -4049,6 +4093,19 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &1821193650
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1821193644}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ae2cf492f357934ea4ac2d7f06c2dc7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tilemap: {fileID: 1473089282}
+  tileSize: 0
 --- !u!1 &1823584187
 GameObject:
   m_ObjectHideFlags: 0
