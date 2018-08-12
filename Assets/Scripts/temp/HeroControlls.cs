@@ -57,47 +57,87 @@ public class HeroControlls : MonoBehaviour
         direction = Vector3.zero;
         if (Input.GetKeyDown(KeyCode.W) && timer <= 0)
         {
-            if (!Physics2D.Raycast(transform.position, Vector3.up * tileSize, 1f, maskCombined.value))
+            RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector3.up * tileSize, 1f, maskCombined.value);
+            if (!hit)
             {
                 //transform.Translate(Vector3.up * tileSize);
                 //CheckSurroundings();
                 direction = Vector3.up;
             }
+            else if (!isTyping)
+            {
+                InteractableObject obj = hit.collider.gameObject.GetComponent<InteractableObject>();
+                if (obj != null)
+                {
+                    if (obj.phrases.Count > 0)
+                        Dialog.instance.SetDialog(obj);
+                }
+            }
         }
         if (Input.GetKeyDown(KeyCode.A) && timer <= 0)
         {
-            if (!Physics2D.Raycast(transform.position, Vector3.left * tileSize, 1f, maskCombined.value))
+            RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector3.left * tileSize, 1f, maskCombined.value);
+            if (!hit)
             {
                 //transform.Translate(Vector3.left * tileSize);
                 //CheckSurroundings();
                 direction = Vector3.left;
-                spriteRenderer.flipX = false;
             }
+            else if (!isTyping)
+            {
+                InteractableObject obj = hit.collider.gameObject.GetComponent<InteractableObject>();
+                if (obj != null)
+                {
+                    if (obj.phrases.Count > 0)
+                        Dialog.instance.SetDialog(obj);
+                }
+            }
+            spriteRenderer.flipX = false;
         }
         if (Input.GetKeyDown(KeyCode.S) && timer <= 0)
         {
-            if (!Physics2D.Raycast(transform.position, Vector3.down * tileSize, 1f, maskCombined.value))
+            RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector3.down * tileSize, 1f, maskCombined.value);
+            if (!hit)
             {
                 //transform.Translate(Vector3.down * tileSize);
                 //CheckSurroundings();
                 direction = Vector3.down;
             }
+            else if (!isTyping)
+            {
+                InteractableObject obj = hit.collider.gameObject.GetComponent<InteractableObject>();
+                if (obj != null)
+                {
+                    if (obj.phrases.Count > 0)
+                        Dialog.instance.SetDialog(obj);
+                }
+            }
         }
         if (Input.GetKeyDown(KeyCode.D) && timer <= 0)
         {
-            if (!Physics2D.Raycast(transform.position, Vector3.right * tileSize, 1f, maskCombined.value))
+            RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector3.right * tileSize, 1f, maskCombined.value);
+            if (!hit)
             {
                 //transform.Translate(Vector3.right * tileSize);
                 //CheckSurroundings();
                 direction = Vector3.right;
-                spriteRenderer.flipX = true;
             }
+            else if (!isTyping)
+            {
+                InteractableObject obj = hit.collider.gameObject.GetComponent<InteractableObject>();
+                if (obj != null)
+                {
+                    if (obj.phrases.Count > 0)
+                        Dialog.instance.SetDialog(obj);
+                }
+            }
+            spriteRenderer.flipX = true;
         }
-        if (Input.GetKeyDown(KeyCode.E) && !isTyping)
-        {
-            CheckSurroundings();
-        }
-        if (direction != Vector3.zero && canMove /*&& heroMoved == false*/)
+        //if (Input.GetKeyDown(KeyCode.E) && !isTyping)
+        //{
+        //    CheckSurroundings();
+        //}
+        if (direction != Vector3.zero && canMove && heroMoved == false)
         {
             if (coroutine != null)
             {
@@ -130,7 +170,8 @@ public class HeroControlls : MonoBehaviour
             if (objects.Count > 0)
             {
                 objects.Sort();
-                Dialog.instance.SetDialog(objects[0]);
+                if (objects[0].phrases.Count > 0)
+                    Dialog.instance.SetDialog(objects[0]);
             }
         }
         else

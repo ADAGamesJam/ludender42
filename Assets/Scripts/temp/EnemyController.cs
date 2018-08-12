@@ -8,7 +8,8 @@ public class EnemyController : MonoBehaviour
     private SpriteRenderer spriteRenderer;
     private LayerMask maskWalls = 1 << 8;
     private LayerMask maskPitfall = 1 << 10;
-    private LayerMask maskCombined = 1 << 8 | 1 << 10;
+    private LayerMask maskPlayer = 1 << 11;
+    private LayerMask maskCombined = 1 << 8 | 1 << 10 | 1 << 11;
     private float tileSize;
     private MoveInst moveInst = MoveInst.stay;
 
@@ -56,7 +57,6 @@ public class EnemyController : MonoBehaviour
             {
                 if (!Physics2D.Raycast(transform.position, Vector3.up * tileSize, 1f, maskCombined.value))
                 {
-                    Debug.Log("Moving");
                     transform.Translate(Vector3.up * tileSize);
                     //CheckSurroundings();
                     //direction = Vector3.up;

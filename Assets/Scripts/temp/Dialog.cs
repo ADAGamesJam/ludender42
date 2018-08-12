@@ -22,13 +22,15 @@ public class Dialog : MonoBehaviour {
 
     [Header("Parameters")]
     public float letterPause = 0.01f;
+    public float skipPause = 0.1f;
 
 
     private string message;
     private Coroutine coroutine;
     private bool selectorOn = false;
     private InteractableObject targetDialog;
-    private bool breakCurrentPhrase = false;
+    private bool skip = false;
+    private float skipTimer;
 
     private void Awake()
     {
@@ -42,13 +44,11 @@ public class Dialog : MonoBehaviour {
         }
     }
 
-    //public void AttackDialog()
-    //{
-        
-    //    textHolder.SetActive(false);
-    //    attackOptions.SetActive(true);
-    //    selectorOn = true;
-    //}
+    private void Start()
+    {
+        skipTimer = skipPause;
+    }
+    
 
     public void SetMessage(string message, IconType icon)
     {
@@ -103,45 +103,49 @@ public class Dialog : MonoBehaviour {
                 //if (sound)
                 //    audio.PlayOneShot(sound);
                 //yield return 0;
-                //if (Input.GetKeyDown(KeyCode.E))
-                //{
-                //    breakCurrentPhrase = false;
-                //    instance.inputField.text = phrase.message;
-                //    continue;
-                //}
+                if (skip)
+                {
+                    skip = false;
+                    instance.inputField.text = phrase.message;
+                    break;
+                }
 
                 yield return new WaitForSeconds(letterPause);
             }
-            while (!Input.GetKeyDown(KeyCode.E))
+            while (!skip)
             {
                 yield return 0;
             }
+            skip = false;
+            yield return 0;
         }
         Hide();
         HeroControlls.instance.isTyping = false;
         HeroControlls.instance.canMove = true;
     }
 
-    IEnumerator TypeText2()
-    {
-        instance.inputField.text = "";
-        foreach (char letter in instance.message.ToCharArray())
-        {
-            instance.inputField.text += letter;
-            //if (sound)
-            //    audio.PlayOneShot(sound);
-            yield return 0;
-            yield return new WaitForSeconds(letterPause);
-        }
-    }
+    //IEnumerator TypeText2()
+    //{
+    //    instance.inputField.text = "";
+    //    foreach (char letter in instance.message.ToCharArray())
+    //    {
+    //        instance.inputField.text += letter;
+    //        //if (sound)
+    //        //    audio.PlayOneShot(sound);
+    //        yield return 0;
+    //        yield return new WaitForSeconds(letterPause);
+    //    }
+    //}
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.E))
+        skipTimer -= Time.deltaTime;
+        if (skipTimer < 0 && HeroControlls.instance.isTyping && (Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.D)))
         {
             if (coroutine != null)
             {
-                breakCurrentPhrase = true;
+                skip = true;
+                skipTimer = skipPause;
             }
         }
         //if (selectorOn)
