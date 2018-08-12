@@ -67,12 +67,7 @@ public class HeroControlls : MonoBehaviour
             }
             else if (!isTyping)
             {
-                InteractableObject obj = hit.collider.gameObject.GetComponent<InteractableObject>();
-                if (obj != null)
-                {
-                    if (obj.phrases.Count > 0)
-                        Dialog.instance.SetDialog(obj);
-                }
+                Skill(hit);
             }
         }
         if (Input.GetKeyDown(KeyCode.A) && timer <= 0)
@@ -86,21 +81,7 @@ public class HeroControlls : MonoBehaviour
             }
             else if (!isTyping)
             {
-                InteractableObject obj = hit.collider.gameObject.GetComponent<InteractableObject>();
-                if (obj != null)
-                {
-                    if (obj.phrases.Count > 0)
-                        Dialog.instance.SetDialog(obj);
-                }
-            }
-            else
-            {
-                Door obj = hit.collider.gameObject.GetComponent<Door>();
-                if (obj != null)
-                {
-                    //if ( тут поставить условие наличия апгрейда )
-                    obj.Open();
-                }
+                Skill(hit);
             }
             spriteRenderer.flipX = false;
         }
@@ -115,12 +96,7 @@ public class HeroControlls : MonoBehaviour
             }
             else if (!isTyping)
             {
-                InteractableObject obj = hit.collider.gameObject.GetComponent<InteractableObject>();
-                if (obj != null)
-                {
-                    if (obj.phrases.Count > 0)
-                        Dialog.instance.SetDialog(obj);
-                }
+                Skill(hit);
             }
         }
         if (Input.GetKeyDown(KeyCode.D) && timer <= 0)
@@ -134,12 +110,7 @@ public class HeroControlls : MonoBehaviour
             }
             else if (!isTyping)
             {
-                InteractableObject obj = hit.collider.gameObject.GetComponent<InteractableObject>();
-                if (obj != null)
-                {
-                    if (obj.phrases.Count > 0)
-                        Dialog.instance.SetDialog(obj);
-                }
+                Skill(hit);
             }
             spriteRenderer.flipX = true;
         }
@@ -162,33 +133,63 @@ public class HeroControlls : MonoBehaviour
     }
 
 
-    private void CheckSurroundings()
+    private void Skill(RaycastHit2D hit)
     {
-        List<InteractableObject> objects;
-        Collider2D[] cols = Physics2D.OverlapCircleAll(transform.position, (tileSize * tileSize) / 2, maskInteractables.value);
-        if (cols.Length > 0)
+        // Говорить
+        InteractableObject obj = hit.collider.gameObject.GetComponent<InteractableObject>();
+        if (obj != null)
         {
-            objects = new List<InteractableObject>();
-            foreach (var col in cols)
-            {
-                if (col.gameObject.GetComponent<InteractableObject>() != null)
-                {
-                    objects.Add(col.gameObject.GetComponent<InteractableObject>());
-                }
-            }
-
-            if (objects.Count > 0)
-            {
-                objects.Sort();
-                if (objects[0].phrases.Count > 0)
-                    Dialog.instance.SetDialog(objects[0]);
-            }
+            if (obj.phrases.Count > 0)
+                Dialog.instance.SetDialog(obj);
         }
-        else
+
+        // Открывать двери
+        Door obj1 = hit.collider.gameObject.GetComponent<Door>();
+        if (obj1 != null)
         {
-            Dialog.instance.Hide();
+            //if ( тут поставить условие наличия апгрейда )
+            obj1.Open();
+        }
+
+        Debug.Log(((Vector3)hit.point).normalized - transform.position);
+        // Открывать двери
+        if (hit.collider.gameObject.layer.Equals(10))
+        {
+            //if (есть апгрейд)
+            {
+                direction = ((Vector3)hit.point - transform.position).normalized*2;
+                Debug.Log(direction);
+            }
         }
     }
+
+    //private void CheckSurroundings()
+    //{
+    //    List<InteractableObject> objects;
+    //    Collider2D[] cols = Physics2D.OverlapCircleAll(transform.position, (tileSize * tileSize) / 2, maskInteractables.value);
+    //    if (cols.Length > 0)
+    //    {
+    //        objects = new List<InteractableObject>();
+    //        foreach (var col in cols)
+    //        {
+    //            if (col.gameObject.GetComponent<InteractableObject>() != null)
+    //            {
+    //                objects.Add(col.gameObject.GetComponent<InteractableObject>());
+    //            }
+    //        }
+
+    //        if (objects.Count > 0)
+    //        {
+    //            objects.Sort();
+    //            if (objects[0].phrases.Count > 0)
+    //                Dialog.instance.SetDialog(objects[0]);
+    //        }
+    //    }
+    //    else
+    //    {
+    //        Dialog.instance.Hide();
+    //    }
+    //}
 
     private IEnumerator Move()
     {

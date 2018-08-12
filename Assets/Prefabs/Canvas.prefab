@@ -9,82 +9,61 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1764948974337328}
+  m_RootGameObject: {fileID: 1570539983884738}
   m_IsPrefabAsset: 1
---- !u!1 &1013839282387738
+--- !u!1 &1005945243063830
 GameObject:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 224481942946625936}
-  - component: {fileID: 222514535591524360}
-  - component: {fileID: 114296665800723404}
-  - component: {fileID: 114302415395663672}
-  - component: {fileID: 114535825202389880}
+  - component: {fileID: 224393042260098796}
+  - component: {fileID: 222484543783340352}
+  - component: {fileID: 114857855937034448}
   m_Layer: 5
-  m_Name: Slot
+  m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!1 &1051861030087474
+--- !u!1 &1053402287004260
 GameObject:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 224618449877694280}
-  - component: {fileID: 222713046497135970}
-  - component: {fileID: 114774246815841900}
-  - component: {fileID: 114930183275319660}
+  - component: {fileID: 224518482549276566}
+  - component: {fileID: 222786250839502242}
+  - component: {fileID: 114455450751038968}
   m_Layer: 5
-  m_Name: Exit_Button
+  m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!1 &1055593249798170
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 224834770676765840}
-  - component: {fileID: 222598851441484170}
-  - component: {fileID: 114722101950871108}
-  - component: {fileID: 114781957262032764}
-  m_Layer: 5
-  m_Name: Pause_Button
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &1092909125093488
+--- !u!1 &1073178332770048
 GameObject:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 224473323795404428}
-  - component: {fileID: 222129494358691942}
-  - component: {fileID: 114970581849528508}
-  - component: {fileID: 114160075534958846}
-  - component: {fileID: 225446350328617308}
+  - component: {fileID: 224478930609108560}
+  - component: {fileID: 222097205410753316}
+  - component: {fileID: 114968196488156710}
+  - component: {fileID: 114284945214954482}
   m_Layer: 5
-  m_Name: Image
+  m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
 --- !u!1 &1093848681498238
 GameObject:
   m_ObjectHideFlags: 1
@@ -104,58 +83,60 @@ GameObject:
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!1 &1123592693245542
+=======
+--- !u!1 &1085043193720482
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
 GameObject:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 224062836863320578}
-  - component: {fileID: 222027889075674314}
-  - component: {fileID: 114390609761079080}
+  - component: {fileID: 224652033389029176}
+  - component: {fileID: 222140864906078024}
+  - component: {fileID: 114967751337630596}
   m_Layer: 5
-  m_Name: Panel
+  m_Name: BagPack
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!1 &1175466068856318
+--- !u!1 &1167816111949560
 GameObject:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 224750746626290894}
-  - component: {fileID: 222256736048295856}
-  - component: {fileID: 114095961776845186}
-  - component: {fileID: 225662027335357160}
-  - component: {fileID: 114891464891351658}
+  - component: {fileID: 224092542532534654}
+  - component: {fileID: 222577860059038560}
+  - component: {fileID: 114856357909985400}
   m_Layer: 5
-  m_Name: Image 1
+  m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!1 &1186501574716436
+--- !u!1 &1168475358865650
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 224110123206572600}
-  - component: {fileID: 222306606838328092}
-  - component: {fileID: 114526834552913970}
+  - component: {fileID: 224798567989776100}
+  - component: {fileID: 222234009759794770}
+  - component: {fileID: 114351618000147854}
   m_Layer: 5
-  m_Name: Pause_Panel
+  m_Name: Lose_Panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 0
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
 --- !u!1 &1200257570038666
 GameObject:
   m_ObjectHideFlags: 1
@@ -174,40 +155,45 @@ GameObject:
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!1 &1209151708666660
+=======
+--- !u!1 &1227602817707578
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
 GameObject:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 224473394205467558}
-  - component: {fileID: 222595533721925456}
-  - component: {fileID: 114058285491775516}
+  - component: {fileID: 224975088732200798}
+  - component: {fileID: 222256421999467036}
+  - component: {fileID: 114787013653389130}
+  - component: {fileID: 114343148962834160}
+  - component: {fileID: 114849071383679988}
   m_Layer: 5
-  m_Name: LowerPanelHolder
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!1 &1236727660229850
-GameObject:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 224040314637782896}
-  - component: {fileID: 222281041868582600}
-  - component: {fileID: 114569507686145192}
-  - component: {fileID: 114099934136780480}
-  m_Layer: 5
-  m_Name: Restart_Button
+  m_Name: Slot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!1 &1270765718122118
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 224184082856015748}
+  - component: {fileID: 222513571927554534}
+  - component: {fileID: 114054980625192760}
+  m_Layer: 5
+  m_Name: Panel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
 --- !u!1 &1276511720959002
 GameObject:
   m_ObjectHideFlags: 1
@@ -226,64 +212,81 @@ GameObject:
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!1 &1315119597130364
+=======
+--- !u!1 &1296874669150036
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
 GameObject:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 224088188942641610}
-  - component: {fileID: 222460460405279248}
-  - component: {fileID: 114382477811084740}
-  - component: {fileID: 114278089076685854}
+  - component: {fileID: 224632015018651420}
+  - component: {fileID: 222368495448264808}
+  - component: {fileID: 114160819431991436}
+  - component: {fileID: 114915617639106838}
   m_Layer: 5
-  m_Name: ContentHolder
+  m_Name: TextHolder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!1 &1323126029496188
+--- !u!1 &1315644414735556
 GameObject:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 224629891619676766}
-  - component: {fileID: 222865222499483416}
-  - component: {fileID: 114324917202061498}
+  - component: {fileID: 224497821467593978}
+  - component: {fileID: 222550886165037732}
+  - component: {fileID: 114099328304508970}
+  - component: {fileID: 114878765820169674}
   m_Layer: 5
-  m_Name: Text
+  m_Name: Menu_Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
 --- !u!1 &1360048954897550
+=======
+--- !u!1 &1323726577816198
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
 GameObject:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
   - component: {fileID: 224752178839765636}
   - component: {fileID: 222550237943449238}
   - component: {fileID: 114377205739878630}
+=======
+  - component: {fileID: 224813483160407746}
+  - component: {fileID: 222078552826134694}
+  - component: {fileID: 114755905582797804}
+  - component: {fileID: 114189484443418510}
+  - component: {fileID: 114219419369570082}
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
   m_Layer: 5
-  m_Name: Text
+  m_Name: Slot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!1 &1382038195290934
+--- !u!1 &1337330087318160
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
   - component: {fileID: 224388471290702864}
   - component: {fileID: 222404032616658394}
   - component: {fileID: 114305290271628404}
@@ -307,77 +310,33 @@ GameObject:
   - component: {fileID: 114992101068272152}
   - component: {fileID: 114721592698594170}
   - component: {fileID: 114094463885269510}
+=======
+  - component: {fileID: 224225145311392204}
+  - component: {fileID: 222589064354094210}
+  - component: {fileID: 114307932019532480}
+  - component: {fileID: 114863010098745688}
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
   m_Layer: 5
-  m_Name: Slot
+  m_Name: Pause_Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
 --- !u!1 &1526709410402674
+=======
+--- !u!1 &1375838675554250
 GameObject:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 224667787635210222}
-  - component: {fileID: 222891297237865812}
-  - component: {fileID: 114284887674313574}
-  - component: {fileID: 114978809975202122}
-  m_Layer: 5
-  m_Name: Restart_Button
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &1585138399707196
-GameObject:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 224091277887763456}
-  - component: {fileID: 222222687952770978}
-  - component: {fileID: 114830658984901106}
-  - component: {fileID: 114781501189019122}
-  m_Layer: 5
-  m_Name: Background
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &1662541685059698
-GameObject:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 224109357457583876}
-  - component: {fileID: 222307306539918926}
-  - component: {fileID: 114247978628603968}
-  m_Layer: 5
-  m_Name: Text
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &1668387532549914
-GameObject:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 224046674480224842}
-  - component: {fileID: 222952248161274908}
-  - component: {fileID: 114649223444111370}
-  - component: {fileID: 114549026213382424}
+  - component: {fileID: 224483504559151798}
+  - component: {fileID: 222466353834080438}
+  - component: {fileID: 114035529093743364}
+  - component: {fileID: 114258433689004848}
   m_Layer: 5
   m_Name: Continue_Button
   m_TagString: Untagged
@@ -385,35 +344,174 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!1 &1727695476123274
+--- !u!1 &1379358998750164
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
 GameObject:
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 224182662212651094}
-  - component: {fileID: 222562720554924860}
-  - component: {fileID: 114263994611934122}
-  - component: {fileID: 114657753229540112}
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
+  - component: {fileID: 224667787635210222}
+  - component: {fileID: 222891297237865812}
+  - component: {fileID: 114284887674313574}
+  - component: {fileID: 114978809975202122}
   m_Layer: 5
-  m_Name: Menu_Button
+  m_Name: Restart_Button
+=======
+  - component: {fileID: 224944822407777796}
+  - component: {fileID: 222255437378596736}
+  - component: {fileID: 114753475522799748}
+  m_Layer: 5
+  m_Name: BagPack
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!1 &1407673982883390
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 224506170898858288}
+  - component: {fileID: 222410564196453868}
+  - component: {fileID: 114815531988892366}
+  - component: {fileID: 114201904498404854}
+  m_Layer: 5
+  m_Name: OpenBagPack
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!1 &1743454153200704
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
+--- !u!1 &1662541685059698
+=======
+--- !u!1 &1479386484771382
 GameObject:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 224509132330952890}
-  - component: {fileID: 222639117369762222}
-  - component: {fileID: 114583719988954146}
-  - component: {fileID: 114222908593785690}
+  - component: {fileID: 224353431216121464}
+  - component: {fileID: 222824196940326838}
+  - component: {fileID: 114993651691125644}
+  - component: {fileID: 114798302246949738}
+  - component: {fileID: 114985427860966690}
+  m_Layer: 5
+  m_Name: Slot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1481558313989436
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
+  - component: {fileID: 224109357457583876}
+  - component: {fileID: 222307306539918926}
+  - component: {fileID: 114247978628603968}
+=======
+  - component: {fileID: 224662758122606660}
+  - component: {fileID: 222230632419048564}
+  - component: {fileID: 114993050946551484}
+  - component: {fileID: 114487320832494728}
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
+  m_Layer: 5
+  m_Name: Restart_Button
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1508254725534452
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 224513419755197106}
+  - component: {fileID: 222464494785155062}
+  - component: {fileID: 114408299586507508}
+  - component: {fileID: 114653370515584674}
+  m_Layer: 5
+  m_Name: Dialog
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
+--- !u!1 &1727695476123274
+=======
+--- !u!1 &1534036799818920
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 224853940520327652}
+  - component: {fileID: 222625469834237284}
+  - component: {fileID: 114984760396231268}
+  m_Layer: 5
+  m_Name: LowerPanelHolder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!1 &1570539983884738
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 224293785848378358}
+  - component: {fileID: 223910856337556732}
+  - component: {fileID: 114278604037305356}
+  - component: {fileID: 114477181463867154}
+  - component: {fileID: 114567738661183688}
+  - component: {fileID: 114141005171587028}
+  - component: {fileID: 114756925551500724}
+  - component: {fileID: 114250674753774858}
+  m_Layer: 5
+  m_Name: Canvas3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
+--- !u!1 &1743454153200704
+=======
+--- !u!1 &1608600664667108
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 224973231221336404}
+  - component: {fileID: 222812945253905160}
+  - component: {fileID: 114985100252378026}
+  - component: {fileID: 114073446522842882}
+  - component: {fileID: 225307967635304382}
   m_Layer: 5
   m_Name: Image
   m_TagString: Untagged
@@ -421,6 +519,50 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!1 &1627237311524358
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 224856619878963668}
+  - component: {fileID: 222002938445129018}
+  - component: {fileID: 114710422011081428}
+  m_Layer: 5
+  m_Name: Panel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1667081026544654
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
+  - component: {fileID: 224509132330952890}
+  - component: {fileID: 222639117369762222}
+  - component: {fileID: 114583719988954146}
+  - component: {fileID: 114222908593785690}
+=======
+  - component: {fileID: 224367115208801334}
+  - component: {fileID: 222137614162279828}
+  - component: {fileID: 114045312564614670}
+  - component: {fileID: 114961629560230516}
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
+  m_Layer: 5
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
 --- !u!1 &1755351284306938
 GameObject:
   m_ObjectHideFlags: 1
@@ -439,92 +581,40 @@ GameObject:
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!1 &1764948974337328
+=======
+--- !u!1 &1677808294313064
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
 GameObject:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 224494216748016428}
-  - component: {fileID: 223412793181715114}
-  - component: {fileID: 114390726777184802}
-  - component: {fileID: 114613797027786864}
-  - component: {fileID: 114805252130852156}
-  - component: {fileID: 114638794369087860}
-  - component: {fileID: 114750849766232546}
-  - component: {fileID: 114928941347280344}
+  - component: {fileID: 224591176046329704}
+  - component: {fileID: 222782432360794100}
+  - component: {fileID: 114288142898058280}
+  - component: {fileID: 114752254980355058}
   m_Layer: 5
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
   m_Name: Canvas
+=======
+  m_Name: ContentHolder
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!1 &1792990220843978
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 224632069796867742}
-  - component: {fileID: 222198883346379904}
-  - component: {fileID: 114210504668892200}
-  - component: {fileID: 114144685489368882}
-  m_Layer: 5
-  m_Name: Dialog
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &1795571049729154
+--- !u!1 &1815929609752688
 GameObject:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 224608294242439398}
-  - component: {fileID: 222601721988691114}
-  - component: {fileID: 114030148479934946}
-  - component: {fileID: 114973503091276362}
-  - component: {fileID: 114268937740544936}
-  m_Layer: 5
-  m_Name: Slot
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &1798781851614796
-GameObject:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 224573301006746010}
-  - component: {fileID: 222884442528165778}
-  - component: {fileID: 114936467610224418}
-  - component: {fileID: 114035673510654272}
-  m_Layer: 5
-  m_Name: TextHolder
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &1881988056183886
-GameObject:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 224338941727426458}
-  - component: {fileID: 222589849213576252}
-  - component: {fileID: 114772198208635818}
+  - component: {fileID: 224036487471212520}
+  - component: {fileID: 222880004601711740}
+  - component: {fileID: 114518841597066132}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -532,52 +622,176 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!1 &1891176477675208
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 224568496679010044}
-  - component: {fileID: 222557803765031756}
-  - component: {fileID: 114470556476371366}
-  m_Layer: 5
-  m_Name: BagPack
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!1 &1898431235046148
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 224169921354323396}
-  - component: {fileID: 222784878876700898}
-  - component: {fileID: 114606432813054858}
-  m_Layer: 5
-  m_Name: Lose_Panel
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!1 &1916906192305076
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
+--- !u!1 &1795571049729154
+=======
+--- !u!1 &1825180064880828
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
 GameObject:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
+  - component: {fileID: 224608294242439398}
+  - component: {fileID: 222601721988691114}
+  - component: {fileID: 114030148479934946}
+  - component: {fileID: 114973503091276362}
+  - component: {fileID: 114268937740544936}
+  m_Layer: 5
+  m_Name: Slot
+=======
+  - component: {fileID: 224802463947613860}
+  - component: {fileID: 222082769423403970}
+  - component: {fileID: 114199926249704100}
+  - component: {fileID: 225917481805118468}
+  - component: {fileID: 114686862692066510}
+  m_Layer: 5
+  m_Name: Image 1
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
+--- !u!1 &1798781851614796
+=======
+--- !u!1 &1831575111169150
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
+  - component: {fileID: 224573301006746010}
+  - component: {fileID: 222884442528165778}
+  - component: {fileID: 114936467610224418}
+  - component: {fileID: 114035673510654272}
+  m_Layer: 5
+  m_Name: TextHolder
+=======
+  - component: {fileID: 224365841284762918}
+  - component: {fileID: 222772354548310106}
+  - component: {fileID: 114656503001869910}
+  - component: {fileID: 114198809066299194}
+  m_Layer: 5
+  m_Name: Restart_Button
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
+--- !u!1 &1881988056183886
+=======
+--- !u!1 &1835412919425610
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
+  - component: {fileID: 224338941727426458}
+  - component: {fileID: 222589849213576252}
+  - component: {fileID: 114772198208635818}
+  m_Layer: 5
+  m_Name: Text
+=======
+  - component: {fileID: 224716293562880838}
+  - component: {fileID: 222500308322270904}
+  - component: {fileID: 114436650701680128}
+  m_Layer: 5
+  m_Name: Pause_Panel
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
+  m_IsActive: 1
+--- !u!1 &1891176477675208
+=======
+  m_IsActive: 0
+--- !u!1 &1886794327095754
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
+  - component: {fileID: 224568496679010044}
+  - component: {fileID: 222557803765031756}
+  - component: {fileID: 114470556476371366}
+=======
+  - component: {fileID: 224354133277596640}
+  - component: {fileID: 222913145762506190}
+  - component: {fileID: 114972493299703362}
+  - component: {fileID: 114603498857214860}
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
+  m_Layer: 5
+  m_Name: Menu_Button
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
+  m_IsActive: 0
+--- !u!1 &1898431235046148
+=======
+  m_IsActive: 1
+--- !u!1 &1903489987055232
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 224381945222873960}
+  - component: {fileID: 222963900304432056}
+  - component: {fileID: 114987207910658964}
+  - component: {fileID: 114057051348331700}
+  m_Layer: 5
+  m_Name: Exit_Button
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
+  m_IsActive: 0
+--- !u!1 &1916906192305076
+=======
+  m_IsActive: 1
+--- !u!1 &1934726151716110
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
   - component: {fileID: 224322459719799498}
   - component: {fileID: 222404569127516336}
   - component: {fileID: 114989441556171868}
   - component: {fileID: 114607159641157100}
   - component: {fileID: 114354270794099624}
+=======
+  - component: {fileID: 224730340758551354}
+  - component: {fileID: 222076478448103286}
+  - component: {fileID: 114286609339387510}
+  - component: {fileID: 114535649583502412}
+  - component: {fileID: 114888643669320692}
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
   m_Layer: 5
   m_Name: Slot
   m_TagString: Untagged
@@ -585,24 +799,38 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
 --- !u!1 &1920496859379428
+=======
+--- !u!1 &1972310012312186
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
 GameObject:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
   - component: {fileID: 224043915067466402}
   - component: {fileID: 222325116802366826}
   - component: {fileID: 114468643724917224}
   - component: {fileID: 114086819323090694}
   m_Layer: 5
   m_Name: Menu_Button
+=======
+  - component: {fileID: 224662600622737022}
+  - component: {fileID: 222922791217071836}
+  - component: {fileID: 114545437519573368}
+  - component: {fileID: 114256442586506814}
+  m_Layer: 5
+  m_Name: Image
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
 --- !u!1 &1957371158638632
 GameObject:
   m_ObjectHideFlags: 1
@@ -638,24 +866,32 @@ GameObject:
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!114 &114002619378004900
+=======
+--- !u!114 &114035529093743364
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
   m_GameObject: {fileID: 1276511720959002}
+=======
+  m_GameObject: {fileID: 1375838675554250}
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 62
@@ -673,11 +909,26 @@ MonoBehaviour:
 
 '
 --- !u!114 &114030148479934946
+=======
+  m_Sprite: {fileID: 21300000, guid: 0efb4219403e74ff18ebd53f89f7749c, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!114 &114045312564614670
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
   m_GameObject: {fileID: 1795571049729154}
+=======
+  m_GameObject: {fileID: 1667081026544654}
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
@@ -699,6 +950,7 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
 --- !u!114 &114035673510654272
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -746,13 +998,49 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
 --- !u!114 &114086819323090694
+=======
+--- !u!114 &114054980625192760
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
   m_GameObject: {fileID: 1920496859379428}
   m_Enabled: 1
   m_EditorHideFlags: 0
+=======
+  m_GameObject: {fileID: 1270765718122118}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!114 &114057051348331700
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1903489987055232}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
   m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -764,8 +1052,8 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 0.7607844, g: 0.7607844, b: 0.7607844, a: 0}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 0.11764706}
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -780,12 +1068,21 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_DisabledTrigger: Disabled
   m_Interactable: 1
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
   m_TargetGraphic: {fileID: 114468643724917224}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 114928941347280344}
         m_MethodName: MainMenu
+=======
+  m_TargetGraphic: {fileID: 114987207910658964}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 114756925551500724}
+        m_MethodName: CloseBagpack
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -797,11 +1094,16 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
 --- !u!114 &114094463885269510
+=======
+--- !u!114 &114073446522842882
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
   m_GameObject: {fileID: 1413477043877368}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -809,11 +1111,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &114095961776845186
+=======
+  m_GameObject: {fileID: 1608600664667108}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a0b7a8a09c874602a31e4841a04ac98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114099328304508970
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
   m_GameObject: {fileID: 1175466068856318}
+=======
+  m_GameObject: {fileID: 1315644414735556}
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
@@ -827,7 +1142,11 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
   m_Sprite: {fileID: 21300000, guid: 5740da7ba2d6947f59355b6b12aaf0b2, type: 3}
+=======
+  m_Sprite: {fileID: 21300000, guid: 1d92f6289a8464a64ad5450b0578eef0, type: 3}
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -835,6 +1154,7 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
 --- !u!114 &114099934136780480
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -920,16 +1240,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &114168352261396506
+=======
+--- !u!114 &114141005171587028
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1755351284306938}
+  m_GameObject: {fileID: 1570539983884738}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Script: {fileID: 11500000, guid: f41a0e0d1935b4167ac92bd7541ce2d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
@@ -980,11 +1304,16 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: 
 --- !u!114 &114210504668892200
+=======
+  Slot1: {fileID: 1227602817707578}
+  Slot2: {fileID: 1479386484771382}
+--- !u!114 &114160819431991436
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1792990220843978}
+  m_GameObject: {fileID: 1296874669150036}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
@@ -1006,11 +1335,16 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
 --- !u!114 &114222908593785690
+=======
+--- !u!114 &114189484443418510
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
   m_GameObject: {fileID: 1743454153200704}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -1026,21 +1360,69 @@ MonoBehaviour:
   m_FlexibleHeight: -1
   m_LayoutPriority: 1
 --- !u!114 &114247978628603968
+=======
+  m_GameObject: {fileID: 1323726577816198}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -2095666955, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Padding:
+    m_Left: 0
+    m_Right: 0
+    m_Top: 0
+    m_Bottom: 0
+  m_ChildAlignment: 1
+  m_StartCorner: 0
+  m_StartAxis: 0
+  m_CellSize: {x: 300, y: 300}
+  m_Spacing: {x: 0, y: 0}
+  m_Constraint: 0
+  m_ConstraintCount: 1
+--- !u!114 &114198809066299194
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
   m_GameObject: {fileID: 1662541685059698}
+=======
+  m_GameObject: {fileID: 1831575111169150}
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 0.7607844, g: 0.7607844, b: 0.7607844, a: 0}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 0.11764706}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 114656503001869910}
+  m_OnClick:
     m_PersistentCalls:
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
@@ -1059,11 +1441,28 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: Main Menu
 --- !u!114 &114263994611934122
+=======
+      m_Calls:
+      - m_Target: {fileID: 114250674753774858}
+        m_MethodName: Restart
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &114199926249704100
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1727695476123274}
+  m_GameObject: {fileID: 1825180064880828}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
@@ -1077,19 +1476,24 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 5740da7ba2d6947f59355b6b12aaf0b2, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
 --- !u!114 &114268937740544936
+=======
+--- !u!114 &114201904498404854
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
   m_GameObject: {fileID: 1795571049729154}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -1146,66 +1550,92 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
 --- !u!114 &114296665800723404
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1013839282387738}
+=======
+  m_GameObject: {fileID: 1407673982883390}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 0.5647059}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 114815531988892366}
+  m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
---- !u!114 &114302415395663672
+      m_Calls:
+      - m_Target: {fileID: 114756925551500724}
+        m_MethodName: OpenBagpack
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &114219419369570082
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1013839282387738}
+  m_GameObject: {fileID: 1323726577816198}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -2095666955, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Script: {fileID: 11500000, guid: c86a5c424dc624ad8a7dbf06cc8eb6a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Padding:
-    m_Left: 0
-    m_Right: 0
-    m_Top: 0
-    m_Bottom: 0
-  m_ChildAlignment: 4
-  m_StartCorner: 0
-  m_StartAxis: 0
-  m_CellSize: {x: 300, y: 300}
-  m_Spacing: {x: 0, y: 0}
-  m_Constraint: 0
-  m_ConstraintCount: 2
---- !u!114 &114305290271628404
+--- !u!114 &114250674753774858
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1382038195290934}
+  m_GameObject: {fileID: 1570539983884738}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Script: {fileID: 11500000, guid: a69fb60f6721e4fa19d481cfc0801c76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  losePanel: {fileID: 1168475358865650}
+  pauseButton: {fileID: 1337330087318160}
+  bagpackButton: {fileID: 1407673982883390}
+--- !u!114 &114256442586506814
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1972310012312186}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1679637790, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
@@ -1223,10 +1653,22 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
 --- !u!114 &114324917202061498
+=======
+  m_IgnoreLayout: 0
+  m_MinWidth: -1
+  m_MinHeight: -1
+  m_PreferredWidth: -1
+  m_PreferredHeight: -1
+  m_FlexibleWidth: -1
+  m_FlexibleHeight: -1
+  m_LayoutPriority: 1
+--- !u!114 &114258433689004848
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
   m_GameObject: {fileID: 1323126029496188}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -1256,10 +1698,62 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: Continue
 --- !u!114 &114354270794099624
+=======
+  m_GameObject: {fileID: 1375838675554250}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 2
+  m_Colors:
+    m_NormalColor: {r: 0.7607844, g: 0.7607844, b: 0.7607844, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 0.11764706}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 21300000, guid: cb53b632cec7444aea13607ab7cd0bb9,
+      type: 3}
+    m_PressedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 114035529093743364}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 114567738661183688}
+        m_MethodName: Continue
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &114278604037305356
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
   m_GameObject: {fileID: 1916906192305076}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -1272,11 +1766,15 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1360048954897550}
+=======
+  m_GameObject: {fileID: 1570539983884738}
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Script: {fileID: 1980459831, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
   m_Material: {fileID: 0}
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_RaycastTarget: 1
@@ -1302,38 +1800,76 @@ MonoBehaviour:
 
 '
 --- !u!114 &114382477811084740
+=======
+  m_UiScaleMode: 1
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 1920, y: 1080}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+--- !u!114 &114284945214954482
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1315119597130364}
+  m_GameObject: {fileID: 1073178332770048}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0}
-  m_RaycastTarget: 0
-  m_OnCullStateChanged:
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 0
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 114968196488156710}
+  m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
---- !u!114 &114390609761079080
+      m_Calls:
+      - m_Target: {fileID: 114653370515584674}
+        m_MethodName: HideForButtons
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &114286609339387510
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1123592693245542}
+  m_GameObject: {fileID: 1934726151716110}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
@@ -1355,11 +1891,12 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
---- !u!114 &114390726777184802
+--- !u!114 &114288142898058280
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
   m_GameObject: {fileID: 1764948974337328}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -1409,14 +1946,22 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1891176477675208}
+=======
+  m_GameObject: {fileID: 1677808294313064}
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
   m_Color: {r: 0, g: 0, b: 0, a: 0.8666667}
   m_RaycastTarget: 1
+=======
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_RaycastTarget: 0
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -1430,26 +1975,26 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
---- !u!114 &114526834552913970
+--- !u!114 &114307932019532480
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1186501574716436}
+  m_GameObject: {fileID: 1337330087318160}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.8862745}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 7c527aba2f36340a9891f88889b7b364, type: 3}
+  m_Sprite: {fileID: 21300000, guid: aa9bb5af947de467897aa31038bc6598, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1457,11 +2002,16 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
 --- !u!114 &114535825202389880
+=======
+--- !u!114 &114343148962834160
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
   m_GameObject: {fileID: 1013839282387738}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -1548,45 +2098,78 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &114569507686145192
+=======
+  m_GameObject: {fileID: 1227602817707578}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -2095666955, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Padding:
+    m_Left: 0
+    m_Right: 0
+    m_Top: 0
+    m_Bottom: 0
+  m_ChildAlignment: 4
+  m_StartCorner: 0
+  m_StartAxis: 0
+  m_CellSize: {x: 300, y: 300}
+  m_Spacing: {x: 0, y: 0}
+  m_Constraint: 0
+  m_ConstraintCount: 2
+--- !u!114 &114351618000147854
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1236727660229850}
+  m_GameObject: {fileID: 1168475358865650}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.8862745}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 7c527aba2f36340a9891f88889b7b364, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
 --- !u!114 &114583719988954146
+=======
+--- !u!114 &114408299586507508
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
   m_GameObject: {fileID: 1743454153200704}
+=======
+  m_GameObject: {fileID: 1508254725534452}
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+=======
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
   m_RaycastTarget: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -1601,6 +2184,7 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
 --- !u!114 &114592902513917318
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1625,11 +2209,14 @@ MonoBehaviour:
   m_Constraint: 0
   m_ConstraintCount: 2
 --- !u!114 &114606432813054858
+=======
+--- !u!114 &114436650701680128
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1898431235046148}
+  m_GameObject: {fileID: 1835412919425610}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
@@ -1643,7 +2230,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 7c527aba2f36340a9891f88889b7b364, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 449fbaa9bfba84c2aa2a7e9d5962b6c5, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1651,11 +2238,16 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
 --- !u!114 &114607159641157100
+=======
+--- !u!114 &114455450751038968
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
   m_GameObject: {fileID: 1916906192305076}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -1675,11 +2267,42 @@ MonoBehaviour:
   m_Constraint: 0
   m_ConstraintCount: 2
 --- !u!114 &114613797027786864
+=======
+  m_GameObject: {fileID: 1053402287004260}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 256
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 2
+    m_MaxSize: 256
+    m_Alignment: 1
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: You lose
+--- !u!114 &114477181463867154
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1764948974337328}
+  m_GameObject: {fileID: 1570539983884738}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 1301386320, guid: f70555f144d8491a825f0804e09c671c, type: 3}
@@ -1690,6 +2313,7 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
 --- !u!114 &114638794369087860
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1731,11 +2355,14 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
 --- !u!114 &114657753229540112
+=======
+--- !u!114 &114487320832494728
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1727695476123274}
+  m_GameObject: {fileID: 1481558313989436}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
@@ -1747,16 +2374,17 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
+  m_Transition: 2
   m_Colors:
-    m_NormalColor: {r: 0.7607844, g: 0.7607844, b: 0.7607844, a: 0}
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 0.11764706}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
+    m_HighlightedSprite: {fileID: 21300000, guid: 803c752ad2d9c4ff28ac2872b5ce9d67,
+      type: 3}
     m_PressedSprite: {fileID: 0}
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
@@ -1765,12 +2393,17 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 114263994611934122}
+  m_TargetGraphic: {fileID: 114993050946551484}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
       - m_Target: {fileID: 114805252130852156}
         m_MethodName: MainMenu
+=======
+      - m_Target: {fileID: 114567738661183688}
+        m_MethodName: Restart
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1782,12 +2415,117 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
 --- !u!114 &114669440049517798
+=======
+--- !u!114 &114518841597066132
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1815929609752688}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 0
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 40
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 4
+    m_MaxSize: 50
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 
+--- !u!114 &114535649583502412
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1934726151716110}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -2095666955, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Padding:
+    m_Left: 0
+    m_Right: 0
+    m_Top: 0
+    m_Bottom: 0
+  m_ChildAlignment: 4
+  m_StartCorner: 0
+  m_StartAxis: 0
+  m_CellSize: {x: 300, y: 300}
+  m_Spacing: {x: 0, y: 0}
+  m_Constraint: 0
+  m_ConstraintCount: 2
+--- !u!114 &114545437519573368
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1972310012312186}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 0
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 21300000, guid: f75b52159f934954c859c551d9bc1e8d, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!114 &114567738661183688
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1570539983884738}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9580d1db2d57d4e0c9a7e44f0705140f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pausePanel: {fileID: 1835412919425610}
+  pauseButton: {fileID: 1337330087318160}
+  bagpackButton: {fileID: 1407673982883390}
+--- !u!114 &114603498857214860
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
   m_GameObject: {fileID: 1382038195290934}
+=======
+  m_GameObject: {fileID: 1886794327095754}
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
@@ -1817,12 +2555,21 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_DisabledTrigger: Disabled
   m_Interactable: 1
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
   m_TargetGraphic: {fileID: 114305290271628404}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 114750849766232546}
         m_MethodName: OpenBagpack
+=======
+  m_TargetGraphic: {fileID: 114972493299703362}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 114250674753774858}
+        m_MethodName: MainMenu
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1834,17 +2581,131 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
 --- !u!114 &114721592698594170
+=======
+--- !u!114 &114653370515584674
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1413477043877368}
+  m_GameObject: {fileID: 1508254725534452}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -2095666955, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Script: {fileID: 11500000, guid: 49cbba2003d123147bffd79e53daecb6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  panel: {fileID: 1534036799818920}
+  textHolder: {fileID: 1677808294313064}
+  inputField: {fileID: 114518841597066132}
+  iconHolder: {fileID: 114545437519573368}
+  icons: []
+  letterPause: 0.1
+  skipPause: 0.1
+--- !u!114 &114656503001869910
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1831575111169150}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!114 &114686862692066510
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1825180064880828}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a0b7a8a09c874602a31e4841a04ac98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114710422011081428
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1627237311524358}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!114 &114752254980355058
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1677808294313064}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -405508275, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Padding:
+    m_Left: 0
+    m_Right: 0
+    m_Top: 0
+    m_Bottom: 0
+  m_ChildAlignment: 3
+  m_Spacing: 0
+  m_ChildForceExpandWidth: 1
+  m_ChildForceExpandHeight: 1
+  m_ChildControlWidth: 1
+  m_ChildControlHeight: 1
+--- !u!114 &114753475522799748
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
+  m_GameObject: {fileID: 1413477043877368}
+=======
+  m_GameObject: {fileID: 1379358998750164}
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
   m_Padding:
     m_Left: 0
     m_Right: 0
@@ -1870,20 +2731,30 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+=======
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.8666667}
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
   m_Sprite: {fileID: 21300000, guid: 79a64f8b5de474eabba2e97629e7f637, type: 3}
   m_Type: 0
+=======
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
 --- !u!114 &114750849766232546
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1899,24 +2770,32 @@ MonoBehaviour:
   pauseButton: {fileID: 1055593249798170}
   bagPackButton: {fileID: 1382038195290934}
 --- !u!114 &114772198208635818
+=======
+--- !u!114 &114755905582797804
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
   m_GameObject: {fileID: 1881988056183886}
+=======
+  m_GameObject: {fileID: 1323726577816198}
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 256
@@ -1932,10 +2811,22 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: You lose
 --- !u!114 &114774246815841900
+=======
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!114 &114756925551500724
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
   m_GameObject: {fileID: 1051861030087474}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -1964,11 +2855,15 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1585138399707196}
+=======
+  m_GameObject: {fileID: 1570539983884738}
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Script: {fileID: 11500000, guid: 7bc7d1cbf540a49ad91b2565cd58b279, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
   m_Navigation:
     m_Mode: 3
     m_SelectOnUp: {fileID: 0}
@@ -2011,13 +2906,70 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &114781957262032764
+=======
+  bagPack: {fileID: 1379358998750164}
+  pauseButton: {fileID: 1337330087318160}
+  bagPackButton: {fileID: 1407673982883390}
+--- !u!114 &114787013653389130
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1055593249798170}
+  m_GameObject: {fileID: 1227602817707578}
   m_Enabled: 1
   m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!114 &114798302246949738
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1479386484771382}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -2095666955, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Padding:
+    m_Left: 0
+    m_Right: 0
+    m_Top: 0
+    m_Bottom: 0
+  m_ChildAlignment: 4
+  m_StartCorner: 0
+  m_StartAxis: 0
+  m_CellSize: {x: 300, y: 300}
+  m_Spacing: {x: 0, y: 0}
+  m_Constraint: 0
+  m_ConstraintCount: 2
+--- !u!114 &114815531988892366
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1407673982883390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
   m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -2063,27 +3015,7 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &114805252130852156
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1764948974337328}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9580d1db2d57d4e0c9a7e44f0705140f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pausePanel: {fileID: 1186501574716436}
-  pauseButton: {fileID: 1055593249798170}
-  bagpackButton: {fileID: 1382038195290934}
---- !u!114 &114830658984901106
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1585138399707196}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
+=======
   m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -2095,6 +3027,93 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!114 &114849071383679988
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1227602817707578}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c86a5c424dc624ad8a7dbf06cc8eb6a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114856357909985400
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1167816111949560}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
+  m_Script: {fileID: 11500000, guid: 9580d1db2d57d4e0c9a7e44f0705140f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pausePanel: {fileID: 1186501574716436}
+  pauseButton: {fileID: 1055593249798170}
+  bagpackButton: {fileID: 1382038195290934}
+--- !u!114 &114830658984901106
+=======
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 62
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 6
+    m_MaxSize: 62
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: Main Menu
+--- !u!114 &114857855937034448
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
+  m_GameObject: {fileID: 1585138399707196}
+=======
+  m_GameObject: {fileID: 1005945243063830}
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
   m_Sprite: {fileID: 21300000, guid: e555433d073eaab4c8fb235824d96f2b, type: 3}
   m_Type: 1
   m_PreserveAspect: 0
@@ -2104,16 +3123,40 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
 --- !u!114 &114891464891351658
+=======
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 62
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 6
+    m_MaxSize: 62
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 'Restart
+
+'
+--- !u!114 &114863010098745688
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
   m_GameObject: {fileID: 1175466068856318}
+=======
+  m_GameObject: {fileID: 1337330087318160}
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4a0b7a8a09c874602a31e4841a04ac98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
 --- !u!114 &114893257002886124
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2142,10 +3185,56 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
 --- !u!114 &114928941347280344
+=======
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 2
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 21300000, guid: 36bbd5a2ac51a4089ab81a4b6404dbe1,
+      type: 3}
+    m_PressedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 114307932019532480}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 114567738661183688}
+        m_MethodName: GamePause
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &114878765820169674
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
   m_GameObject: {fileID: 1764948974337328}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -2161,6 +3250,9 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1051861030087474}
+=======
+  m_GameObject: {fileID: 1315644414735556}
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
@@ -2172,16 +3264,17 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
+  m_Transition: 2
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 0.11764706}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
+    m_HighlightedSprite: {fileID: 21300000, guid: e03c25f9663574f16aad95bda8737a59,
+      type: 3}
     m_PressedSprite: {fileID: 0}
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
@@ -2190,12 +3283,21 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_DisabledTrigger: Disabled
   m_Interactable: 1
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
   m_TargetGraphic: {fileID: 114774246815841900}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 114750849766232546}
         m_MethodName: CloseBagpack
+=======
+  m_TargetGraphic: {fileID: 114099328304508970}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 114567738661183688}
+        m_MethodName: MainMenu
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2207,17 +3309,37 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
 --- !u!114 &114936467610224418
+=======
+--- !u!114 &114888643669320692
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1798781851614796}
+  m_GameObject: {fileID: 1934726151716110}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Script: {fileID: 11500000, guid: c86a5c424dc624ad8a7dbf06cc8eb6a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &114915617639106838
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
+  m_GameObject: {fileID: 1798781851614796}
+=======
+  m_GameObject: {fileID: 1296874669150036}
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1679637790, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 0
@@ -2235,10 +3357,22 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
 --- !u!114 &114964770106622280
+=======
+  m_IgnoreLayout: 0
+  m_MinWidth: -1
+  m_MinHeight: -1
+  m_PreferredWidth: -1
+  m_PreferredHeight: -1
+  m_FlexibleWidth: 10
+  m_FlexibleHeight: -1
+  m_LayoutPriority: 1
+--- !u!114 &114961629560230516
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
   m_GameObject: {fileID: 1964787776787044}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -2268,11 +3402,36 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: Main Menu
 --- !u!114 &114970581849528508
+=======
+  m_GameObject: {fileID: 1667081026544654}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -2095666955, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Padding:
+    m_Left: 0
+    m_Right: 0
+    m_Top: 0
+    m_Bottom: 0
+  m_ChildAlignment: 4
+  m_StartCorner: 0
+  m_StartAxis: 0
+  m_CellSize: {x: 300, y: 300}
+  m_Spacing: {x: 0, y: 0}
+  m_Constraint: 0
+  m_ConstraintCount: 2
+--- !u!114 &114967751337630596
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
   m_GameObject: {fileID: 1092909125093488}
+=======
+  m_GameObject: {fileID: 1085043193720482}
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
@@ -2286,7 +3445,11 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
   m_Sprite: {fileID: 21300000, guid: f01270d0dac784ad19e8e9a3b9c48be2, type: 3}
+=======
+  m_Sprite: {fileID: 21300000, guid: 8e9e259fe2cb045969a81c11d3fe2915, type: 3}
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2294,11 +3457,16 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
 --- !u!114 &114973503091276362
+=======
+--- !u!114 &114968196488156710
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
   m_GameObject: {fileID: 1795571049729154}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -2318,16 +3486,46 @@ MonoBehaviour:
   m_Constraint: 0
   m_ConstraintCount: 1
 --- !u!114 &114978809975202122
+=======
+  m_GameObject: {fileID: 1073178332770048}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 21300000, guid: e555433d073eaab4c8fb235824d96f2b, type: 3}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!114 &114972493299703362
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
   m_GameObject: {fileID: 1526709410402674}
+=======
+  m_GameObject: {fileID: 1886794327095754}
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
   m_Navigation:
     m_Mode: 3
     m_SelectOnUp: {fileID: 0}
@@ -2370,11 +3568,34 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &114989441556171868
+=======
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!114 &114984760396231268
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
   m_GameObject: {fileID: 1916906192305076}
+=======
+  m_GameObject: {fileID: 1534036799818920}
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
@@ -2396,12 +3617,120 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
 --- !u!114 &114992101068272152
+=======
+--- !u!114 &114985100252378026
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1608600664667108}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 21300000, guid: f01270d0dac784ad19e8e9a3b9c48be2, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!114 &114985427860966690
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1479386484771382}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c86a5c424dc624ad8a7dbf06cc8eb6a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114987207910658964
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1903489987055232}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 21300000, guid: 08f9994856fc2479390c334a87cbed5d, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!114 &114993050946551484
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
   m_GameObject: {fileID: 1413477043877368}
+=======
+  m_GameObject: {fileID: 1481558313989436}
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+=======
+  m_Sprite: {fileID: 21300000, guid: 6b52ec6843c9347f382a18b0a0b649d8, type: 3}
+  m_Type: 0
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
+--- !u!222 &222006053244808414
+=======
+--- !u!114 &114993651691125644
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1479386484771382}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
@@ -2423,34 +3752,51 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
---- !u!222 &222006053244808414
+--- !u!222 &222002938445129018
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
 CanvasRenderer:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
   m_GameObject: {fileID: 1093848681498238}
+=======
+  m_GameObject: {fileID: 1627237311524358}
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
   m_CullTransparentMesh: 0
---- !u!222 &222027889075674314
+--- !u!222 &222076478448103286
 CanvasRenderer:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1123592693245542}
+  m_GameObject: {fileID: 1934726151716110}
   m_CullTransparentMesh: 0
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
 --- !u!222 &222129494358691942
+=======
+--- !u!222 &222078552826134694
 CanvasRenderer:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1092909125093488}
+  m_GameObject: {fileID: 1323726577816198}
   m_CullTransparentMesh: 0
---- !u!222 &222198883346379904
+--- !u!222 &222082769423403970
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
 CanvasRenderer:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1792990220843978}
+  m_GameObject: {fileID: 1825180064880828}
+  m_CullTransparentMesh: 0
+--- !u!222 &222097205410753316
+CanvasRenderer:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1073178332770048}
   m_CullTransparentMesh: 1
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
 --- !u!222 &222206418926620678
 CanvasRenderer:
   m_ObjectHideFlags: 1
@@ -2459,66 +3805,100 @@ CanvasRenderer:
   m_GameObject: {fileID: 1964787776787044}
   m_CullTransparentMesh: 0
 --- !u!222 &222222687952770978
+=======
+--- !u!222 &222137614162279828
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
 CanvasRenderer:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1585138399707196}
-  m_CullTransparentMesh: 1
---- !u!222 &222256736048295856
-CanvasRenderer:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1175466068856318}
+  m_GameObject: {fileID: 1667081026544654}
   m_CullTransparentMesh: 0
---- !u!222 &222281041868582600
+--- !u!222 &222140864906078024
 CanvasRenderer:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1236727660229850}
+  m_GameObject: {fileID: 1085043193720482}
   m_CullTransparentMesh: 0
+--- !u!222 &222230632419048564
+CanvasRenderer:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1481558313989436}
+  m_CullTransparentMesh: 0
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
 --- !u!222 &222282982278966270
+=======
+--- !u!222 &222234009759794770
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
 CanvasRenderer:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
   m_GameObject: {fileID: 1200257570038666}
   m_CullTransparentMesh: 0
 --- !u!222 &222306606838328092
+=======
+  m_GameObject: {fileID: 1168475358865650}
+  m_CullTransparentMesh: 0
+--- !u!222 &222255437378596736
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
 CanvasRenderer:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
   m_GameObject: {fileID: 1186501574716436}
   m_CullTransparentMesh: 0
 --- !u!222 &222307306539918926
+=======
+  m_GameObject: {fileID: 1379358998750164}
+  m_CullTransparentMesh: 0
+--- !u!222 &222256421999467036
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
 CanvasRenderer:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
   m_GameObject: {fileID: 1662541685059698}
   m_CullTransparentMesh: 0
 --- !u!222 &222325116802366826
+=======
+  m_GameObject: {fileID: 1227602817707578}
+  m_CullTransparentMesh: 0
+--- !u!222 &222368495448264808
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
 CanvasRenderer:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
   m_GameObject: {fileID: 1920496859379428}
+=======
+  m_GameObject: {fileID: 1296874669150036}
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
   m_CullTransparentMesh: 0
---- !u!222 &222404032616658394
+--- !u!222 &222410564196453868
 CanvasRenderer:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1382038195290934}
+  m_GameObject: {fileID: 1407673982883390}
   m_CullTransparentMesh: 0
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
 --- !u!222 &222404569127516336
+=======
+--- !u!222 &222464494785155062
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
 CanvasRenderer:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
   m_GameObject: {fileID: 1916906192305076}
   m_CullTransparentMesh: 0
 --- !u!222 &222460460405279248
@@ -2529,40 +3909,66 @@ CanvasRenderer:
   m_GameObject: {fileID: 1315119597130364}
   m_CullTransparentMesh: 1
 --- !u!222 &222514535591524360
+=======
+  m_GameObject: {fileID: 1508254725534452}
+  m_CullTransparentMesh: 1
+--- !u!222 &222466353834080438
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
 CanvasRenderer:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1013839282387738}
+  m_GameObject: {fileID: 1375838675554250}
   m_CullTransparentMesh: 0
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
 --- !u!222 &222550237943449238
+=======
+--- !u!222 &222484543783340352
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
 CanvasRenderer:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
   m_GameObject: {fileID: 1360048954897550}
   m_CullTransparentMesh: 0
 --- !u!222 &222551271569654022
+=======
+  m_GameObject: {fileID: 1005945243063830}
+  m_CullTransparentMesh: 0
+--- !u!222 &222500308322270904
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
 CanvasRenderer:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
   m_GameObject: {fileID: 1755351284306938}
   m_CullTransparentMesh: 0
 --- !u!222 &222557803765031756
+=======
+  m_GameObject: {fileID: 1835412919425610}
+  m_CullTransparentMesh: 0
+--- !u!222 &222513571927554534
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
 CanvasRenderer:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
   m_GameObject: {fileID: 1891176477675208}
+=======
+  m_GameObject: {fileID: 1270765718122118}
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
   m_CullTransparentMesh: 0
---- !u!222 &222562720554924860
+--- !u!222 &222550886165037732
 CanvasRenderer:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1727695476123274}
+  m_GameObject: {fileID: 1315644414735556}
   m_CullTransparentMesh: 0
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
 --- !u!222 &222589849213576252
 CanvasRenderer:
   m_ObjectHideFlags: 1
@@ -2578,52 +3984,80 @@ CanvasRenderer:
   m_GameObject: {fileID: 1209151708666660}
   m_CullTransparentMesh: 1
 --- !u!222 &222598851441484170
+=======
+--- !u!222 &222577860059038560
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
 CanvasRenderer:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1055593249798170}
+  m_GameObject: {fileID: 1167816111949560}
   m_CullTransparentMesh: 0
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
 --- !u!222 &222601721988691114
+=======
+--- !u!222 &222589064354094210
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
 CanvasRenderer:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
   m_GameObject: {fileID: 1795571049729154}
   m_CullTransparentMesh: 0
 --- !u!222 &222639117369762222
+=======
+  m_GameObject: {fileID: 1337330087318160}
+  m_CullTransparentMesh: 0
+--- !u!222 &222625469834237284
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
 CanvasRenderer:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
   m_GameObject: {fileID: 1743454153200704}
   m_CullTransparentMesh: 0
 --- !u!222 &222644712160693428
+=======
+  m_GameObject: {fileID: 1534036799818920}
+  m_CullTransparentMesh: 1
+--- !u!222 &222772354548310106
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
 CanvasRenderer:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
   m_GameObject: {fileID: 1413477043877368}
+=======
+  m_GameObject: {fileID: 1831575111169150}
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
   m_CullTransparentMesh: 0
---- !u!222 &222713046497135970
+--- !u!222 &222782432360794100
 CanvasRenderer:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1051861030087474}
-  m_CullTransparentMesh: 0
---- !u!222 &222784878876700898
+  m_GameObject: {fileID: 1677808294313064}
+  m_CullTransparentMesh: 1
+--- !u!222 &222786250839502242
 CanvasRenderer:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1898431235046148}
+  m_GameObject: {fileID: 1053402287004260}
   m_CullTransparentMesh: 0
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
 --- !u!222 &222850183381334046
+=======
+--- !u!222 &222812945253905160
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
 CanvasRenderer:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
   m_GameObject: {fileID: 1957371158638632}
   m_CullTransparentMesh: 0
 --- !u!222 &222857162731762482
@@ -2632,41 +4066,63 @@ CanvasRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1276511720959002}
+=======
+  m_GameObject: {fileID: 1608600664667108}
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
   m_CullTransparentMesh: 0
---- !u!222 &222865222499483416
+--- !u!222 &222824196940326838
 CanvasRenderer:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1323126029496188}
+  m_GameObject: {fileID: 1479386484771382}
   m_CullTransparentMesh: 0
---- !u!222 &222884442528165778
+--- !u!222 &222880004601711740
 CanvasRenderer:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1798781851614796}
+  m_GameObject: {fileID: 1815929609752688}
   m_CullTransparentMesh: 0
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
 --- !u!222 &222891297237865812
+=======
+--- !u!222 &222913145762506190
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
 CanvasRenderer:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
   m_GameObject: {fileID: 1526709410402674}
+=======
+  m_GameObject: {fileID: 1886794327095754}
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
   m_CullTransparentMesh: 0
---- !u!222 &222952248161274908
+--- !u!222 &222922791217071836
 CanvasRenderer:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1668387532549914}
+  m_GameObject: {fileID: 1972310012312186}
   m_CullTransparentMesh: 0
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
 --- !u!223 &223412793181715114
+=======
+--- !u!222 &222963900304432056
+CanvasRenderer:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1903489987055232}
+  m_CullTransparentMesh: 0
+--- !u!223 &223910856337556732
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
 Canvas:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1764948974337328}
+  m_GameObject: {fileID: 1570539983884738}
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 0
@@ -2681,25 +4137,32 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
---- !u!224 &224040314637782896
+--- !u!224 &224036487471212520
 RectTransform:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1236727660229850}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_GameObject: {fileID: 1815929609752688}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
   m_Children:
   - {fileID: 224164871099354064}
   m_Father: {fileID: 224110123206572600}
   m_RootOrder: 1
+=======
+  m_Children: []
+  m_Father: {fileID: 224632015018651420}
+  m_RootOrder: 0
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 0, y: 0.5}
+  m_AnchorMax: {x: 1, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 265.2, y: 127.5}
+  m_SizeDelta: {x: 0, y: 139.9}
   m_Pivot: {x: 0.5, y: 0.5}
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
 --- !u!224 &224043915067466402
 RectTransform:
   m_ObjectHideFlags: 1
@@ -2720,38 +4183,53 @@ RectTransform:
   m_SizeDelta: {x: 321.2, y: 129.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224046674480224842
+=======
+--- !u!224 &224092542532534654
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
 RectTransform:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1668387532549914}
+  m_GameObject: {fileID: 1167816111949560}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
   m_Children:
   - {fileID: 224629891619676766}
   m_Father: {fileID: 224110123206572600}
+=======
+  m_Children: []
+  m_Father: {fileID: 224354133277596640}
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 218}
-  m_SizeDelta: {x: 265.2, y: 127.5}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 65.1, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!224 &224062836863320578
+--- !u!224 &224184082856015748
 RectTransform:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1123592693245542}
+  m_GameObject: {fileID: 1270765718122118}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
   - {fileID: 224608294242439398}
   - {fileID: 224481942946625936}
   - {fileID: 224803056279865766}
   m_Father: {fileID: 224568496679010044}
+=======
+  - {fileID: 224813483160407746}
+  - {fileID: 224730340758551354}
+  - {fileID: 224367115208801334}
+  m_Father: {fileID: 224944822407777796}
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
@@ -2759,11 +4237,16 @@ RectTransform:
   m_AnchoredPosition: {x: -167.90002, y: 0}
   m_SizeDelta: {x: 335.80005, y: 951.9}
   m_Pivot: {x: 0.5, y: 0.5}
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
 --- !u!224 &224088188942641610
+=======
+--- !u!224 &224225145311392204
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
 RectTransform:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
   m_GameObject: {fileID: 1315119597130364}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -2772,27 +4255,41 @@ RectTransform:
   - {fileID: 224509132330952890}
   - {fileID: 224573301006746010}
   m_Father: {fileID: 224091277887763456}
+=======
+  m_GameObject: {fileID: 1337330087318160}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 224293785848378358}
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -130, y: -130}
+  m_SizeDelta: {x: 210, y: 208}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!224 &224091277887763456
+--- !u!224 &224293785848378358
 RectTransform:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1585138399707196}
+  m_GameObject: {fileID: 1570539983884738}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
-  - {fileID: 224088188942641610}
-  m_Father: {fileID: 224473394205467558}
+  - {fileID: 224225145311392204}
+  - {fileID: 224506170898858288}
+  - {fileID: 224513419755197106}
+  - {fileID: 224716293562880838}
+  - {fileID: 224944822407777796}
+  - {fileID: 224798567989776100}
+  m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
@@ -2832,9 +4329,12 @@ RectTransform:
   m_Father: {fileID: 224494216748016428}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
   m_SizeDelta: {x: -120, y: -92.399994}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224164871099354064
@@ -2856,50 +4356,72 @@ RectTransform:
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224169921354323396
+=======
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
+--- !u!224 &224353431216121464
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
 RectTransform:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1898431235046148}
+  m_GameObject: {fileID: 1479386484771382}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
   m_Children:
   - {fileID: 224667787635210222}
   - {fileID: 224043915067466402}
   - {fileID: 224338941727426458}
   m_Father: {fileID: 224494216748016428}
   m_RootOrder: 5
+=======
+  m_Children: []
+  m_Father: {fileID: 224856619878963668}
+  m_RootOrder: 1
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -120, y: -92.40015}
+  m_AnchoredPosition: {x: 0, y: -155}
+  m_SizeDelta: {x: -20, y: -330}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!224 &224182662212651094
+--- !u!224 &224354133277596640
 RectTransform:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1727695476123274}
+  m_GameObject: {fileID: 1886794327095754}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
   - {fileID: 224356703756774436}
   m_Father: {fileID: 224110123206572600}
   m_RootOrder: 2
+=======
+  - {fileID: 224092542532534654}
+  m_Father: {fileID: 224798567989776100}
+  m_RootOrder: 1
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0.000024796, y: -183.2}
   m_SizeDelta: {x: 321.2, y: 129.2}
   m_Pivot: {x: 0.5, y: 0.5}
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
 --- !u!224 &224322459719799498
+=======
+--- !u!224 &224365841284762918
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
 RectTransform:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
   m_GameObject: {fileID: 1916906192305076}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -2914,10 +4436,28 @@ RectTransform:
   m_SizeDelta: {x: -20, y: -340}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224338941727426458
+=======
+  m_GameObject: {fileID: 1831575111169150}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 224393042260098796}
+  m_Father: {fileID: 224798567989776100}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 25}
+  m_SizeDelta: {x: 265.2, y: 127.5}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!224 &224367115208801334
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
 RectTransform:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
   m_GameObject: {fileID: 1881988056183886}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -2932,15 +4472,36 @@ RectTransform:
   m_SizeDelta: {x: 1226.3, y: 430.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224356703756774436
+=======
+  m_GameObject: {fileID: 1667081026544654}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 224184082856015748}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: -318.80005}
+  m_SizeDelta: {x: 0, y: -634}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!224 &224381945222873960
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
 RectTransform:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
   m_GameObject: {fileID: 1964787776787044}
+=======
+  m_GameObject: {fileID: 1903489987055232}
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
   m_Father: {fileID: 224182662212651094}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2948,87 +4509,111 @@ RectTransform:
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 65.1, y: 0}
+=======
+  m_Father: {fileID: 224944822407777796}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 141, y: -147}
+  m_SizeDelta: {x: 120, y: 120}
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!224 &224388471290702864
+--- !u!224 &224393042260098796
 RectTransform:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1382038195290934}
+  m_GameObject: {fileID: 1005945243063830}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
   m_Children:
   - {fileID: 224495219753710116}
   m_Father: {fileID: 224494216748016428}
   m_RootOrder: 1
+=======
+  m_Children: []
+  m_Father: {fileID: 224365841284762918}
+  m_RootOrder: 0
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 271, y: 248}
-  m_SizeDelta: {x: 226.70001, y: 215.20001}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!224 &224473323795404428
+--- !u!224 &224478930609108560
 RectTransform:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1092909125093488}
+  m_GameObject: {fileID: 1073178332770048}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
+  m_Children: []
+  m_Father: {fileID: 224608294242439398}
+=======
+  m_Children:
+  - {fileID: 224591176046329704}
+  m_Father: {fileID: 224853940520327652}
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 1596.8, y: 264.7}
+  m_Pivot: {x: 0.5, y: 1}
+--- !u!224 &224483504559151798
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1375838675554250}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 224608294242439398}
+  m_Father: {fileID: 224716293562880838}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 18.110016, y: -150}
-  m_SizeDelta: {x: 300, y: 300}
-  m_Pivot: {x: 0, y: 0.5}
---- !u!224 &224473394205467558
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 218}
+  m_SizeDelta: {x: 464, y: 123}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!224 &224497821467593978
 RectTransform:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1209151708666660}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 224091277887763456}
-  m_Father: {fileID: 224632069796867742}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: 0.024963379, y: 0}
-  m_SizeDelta: {x: -0.050049, y: 284}
-  m_Pivot: {x: 0.5, y: 0}
---- !u!224 &224481942946625936
-RectTransform:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1013839282387738}
+  m_GameObject: {fileID: 1315644414735556}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 224750746626290894}
-  m_Father: {fileID: 224062836863320578}
-  m_RootOrder: 1
+  m_Children: []
+  m_Father: {fileID: 224716293562880838}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -0.9001465}
-  m_SizeDelta: {x: 0, y: -634}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0.000024796, y: -183.2}
+  m_SizeDelta: {x: 464, y: 123}
   m_Pivot: {x: 0.5, y: 0.5}
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
 --- !u!224 &224494216748016428
+=======
+--- !u!224 &224506170898858288
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
 RectTransform:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
   m_GameObject: {fileID: 1764948974337328}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -3049,10 +4634,28 @@ RectTransform:
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
 --- !u!224 &224495219753710116
+=======
+  m_GameObject: {fileID: 1407673982883390}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 224652033389029176}
+  m_Father: {fileID: 224293785848378358}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 271, y: 248}
+  m_SizeDelta: {x: 226.70001, y: 215.20001}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!224 &224513419755197106
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
 RectTransform:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
   m_GameObject: {fileID: 1755351284306938}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -3060,17 +4663,32 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 224388471290702864}
   m_RootOrder: 0
+=======
+  m_GameObject: {fileID: 1508254725534452}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 224853940520327652}
+  m_Father: {fileID: 224293785848378358}
+  m_RootOrder: 2
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: -0.000015259}
   m_SizeDelta: {x: 226.7, y: 215.2}
   m_Pivot: {x: 0.5, y: 0.5}
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
 --- !u!224 &224506033025176894
+=======
+--- !u!224 &224518482549276566
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
 RectTransform:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
   m_GameObject: {fileID: 1200257570038666}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -3105,10 +4723,27 @@ RectTransform:
   m_SizeDelta: {x: 260.61816, y: 264.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224568496679010044
+=======
+  m_GameObject: {fileID: 1053402287004260}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 224798567989776100}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 235}
+  m_SizeDelta: {x: 1226.3, y: 430.3}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!224 &224591176046329704
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
 RectTransform:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
   m_GameObject: {fileID: 1891176477675208}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -3119,24 +4754,40 @@ RectTransform:
   - {fileID: 224618449877694280}
   m_Father: {fileID: 224494216748016428}
   m_RootOrder: 4
+=======
+  m_GameObject: {fileID: 1677808294313064}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 224662600622737022}
+  - {fileID: 224632015018651420}
+  m_Father: {fileID: 224478930609108560}
+  m_RootOrder: 0
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!224 &224573301006746010
+--- !u!224 &224632015018651420
 RectTransform:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1798781851614796}
+  m_GameObject: {fileID: 1296874669150036}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
   - {fileID: 224837645551329952}
   m_Father: {fileID: 224088188942641610}
+=======
+  - {fileID: 224036487471212520}
+  m_Father: {fileID: 224591176046329704}
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
@@ -3144,11 +4795,16 @@ RectTransform:
   m_AnchoredPosition: {x: 928.70905, y: -132.35}
   m_SizeDelta: {x: 1336.1818, y: 264.7}
   m_Pivot: {x: 0.5, y: 0.5}
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
 --- !u!224 &224608294242439398
+=======
+--- !u!224 &224652033389029176
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
 RectTransform:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
   m_GameObject: {fileID: 1795571049729154}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -3162,72 +4818,117 @@ RectTransform:
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: -17, y: -29.481995}
   m_SizeDelta: {x: 34, y: 58.963013}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!224 &224618449877694280
-RectTransform:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1051861030087474}
+=======
+  m_GameObject: {fileID: 1085043193720482}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
+  m_Father: {fileID: 224506170898858288}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -0.000015259}
+  m_SizeDelta: {x: 226.7, y: 215.2}
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!224 &224662600622737022
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1972310012312186}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
   m_Father: {fileID: 224568496679010044}
   m_RootOrder: 2
+=======
+  m_Father: {fileID: 224591176046329704}
+  m_RootOrder: 0
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 141, y: -147}
-  m_SizeDelta: {x: 120, y: 120}
+  m_AnchoredPosition: {x: 130.30908, y: -132.35}
+  m_SizeDelta: {x: 260.61816, y: 264.7}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!224 &224629891619676766
+--- !u!224 &224662758122606660
 RectTransform:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1323126029496188}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_GameObject: {fileID: 1481558313989436}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
   m_Father: {fileID: 224046674480224842}
   m_RootOrder: 0
+=======
+  m_Father: {fileID: 224716293562880838}
+  m_RootOrder: 1
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
   m_SizeDelta: {x: 0, y: 0}
+=======
+  m_SizeDelta: {x: 464, y: 123}
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!224 &224632069796867742
+--- !u!224 &224716293562880838
 RectTransform:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1792990220843978}
+  m_GameObject: {fileID: 1835412919425610}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
   - {fileID: 224473394205467558}
   m_Father: {fileID: 224494216748016428}
   m_RootOrder: 2
+=======
+  - {fileID: 224483504559151798}
+  - {fileID: 224662758122606660}
+  - {fileID: 224497821467593978}
+  m_Father: {fileID: 224293785848378358}
+  m_RootOrder: 3
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: -1112.8, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
 --- !u!224 &224667787635210222
+=======
+--- !u!224 &224730340758551354
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
 RectTransform:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
   m_GameObject: {fileID: 1526709410402674}
+=======
+  m_GameObject: {fileID: 1934726151716110}
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
   - {fileID: 224752178839765636}
   m_Father: {fileID: 224169921354323396}
   m_RootOrder: 0
@@ -3238,10 +4939,23 @@ RectTransform:
   m_SizeDelta: {x: 265.2, y: 127.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224697268672085452
+=======
+  - {fileID: 224802463947613860}
+  m_Father: {fileID: 224184082856015748}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: -0.9001465}
+  m_SizeDelta: {x: 0, y: -634}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!224 &224798567989776100
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
 RectTransform:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
   m_GameObject: {fileID: 1413477043877368}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -3249,23 +4963,38 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 224506033025176894}
   m_RootOrder: 1
+=======
+  m_GameObject: {fileID: 1168475358865650}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 224365841284762918}
+  - {fileID: 224354133277596640}
+  - {fileID: 224518482549276566}
+  m_Father: {fileID: 224293785848378358}
+  m_RootOrder: 5
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -155}
-  m_SizeDelta: {x: -20, y: -330}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: -120, y: -92.40015}
   m_Pivot: {x: 0.5, y: 0.5}
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
 --- !u!224 &224750746626290894
+=======
+--- !u!224 &224802463947613860
 RectTransform:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1175466068856318}
+  m_GameObject: {fileID: 1825180064880828}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 224481942946625936}
+  m_Father: {fileID: 224730340758551354}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
@@ -3273,11 +5002,36 @@ RectTransform:
   m_AnchoredPosition: {x: 167.90002, y: -158.95001}
   m_SizeDelta: {x: 300, y: 300}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!224 &224752178839765636
+--- !u!224 &224813483160407746
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
 RectTransform:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1323726577816198}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 224973231221336404}
+  m_Father: {fileID: 224184082856015748}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.1, y: 0.74}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -17, y: -29.481995}
+  m_SizeDelta: {x: 34, y: 58.963013}
+  m_Pivot: {x: 0.5, y: 0.5}
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
+--- !u!224 &224752178839765636
+=======
+--- !u!224 &224853940520327652
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
   m_GameObject: {fileID: 1360048954897550}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -3292,10 +5046,28 @@ RectTransform:
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224803056279865766
+=======
+  m_GameObject: {fileID: 1534036799818920}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 224478930609108560}
+  m_Father: {fileID: 224513419755197106}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 0}
+  m_AnchoredPosition: {x: 0.024963379, y: 0}
+  m_SizeDelta: {x: -0.050049, y: 284}
+  m_Pivot: {x: 0.5, y: 0}
+--- !u!224 &224856619878963668
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
 RectTransform:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
   m_GameObject: {fileID: 1093848681498238}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -3303,27 +5075,90 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 224062836863320578}
   m_RootOrder: 2
+=======
+  m_GameObject: {fileID: 1627237311524358}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 224975088732200798}
+  - {fileID: 224353431216121464}
+  m_Father: {fileID: 224944822407777796}
+  m_RootOrder: 1
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: -318.80005}
   m_SizeDelta: {x: 0, y: -634}
   m_Pivot: {x: 0.5, y: 0.5}
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
 --- !u!224 &224834770676765840
+=======
+--- !u!224 &224944822407777796
 RectTransform:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1055593249798170}
+  m_GameObject: {fileID: 1379358998750164}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 224184082856015748}
+  - {fileID: 224856619878963668}
+  - {fileID: 224381945222873960}
+  m_Father: {fileID: 224293785848378358}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!224 &224973231221336404
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1608600664667108}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
+  m_Father: {fileID: 224813483160407746}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 18.110016, y: -150}
+  m_SizeDelta: {x: 300, y: 300}
+  m_Pivot: {x: 0, y: 0.5}
+--- !u!224 &224975088732200798
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
+  m_GameObject: {fileID: 1055593249798170}
+=======
+  m_GameObject: {fileID: 1227602817707578}
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
   m_Father: {fileID: 224494216748016428}
+=======
+  m_Father: {fileID: 224856619878963668}
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
+<<<<<<< HEAD:Assets/Prefabs/Canvas.prefab
   m_AnchoredPosition: {x: -135, y: -133}
   m_SizeDelta: {x: 150, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -3344,24 +5179,28 @@ RectTransform:
   m_AnchorMax: {x: 1, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 139.9}
+=======
+  m_AnchoredPosition: {x: 0, y: 160}
+  m_SizeDelta: {x: -20, y: -340}
+>>>>>>> 2f16b841795a73822557fcc108428706115466a5:Assets/Prefabs/Canvas3.prefab
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!225 &225446350328617308
+--- !u!225 &225307967635304382
 CanvasGroup:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1092909125093488}
+  m_GameObject: {fileID: 1608600664667108}
   m_Enabled: 1
   m_Alpha: 1
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
---- !u!225 &225662027335357160
+--- !u!225 &225917481805118468
 CanvasGroup:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1175466068856318}
+  m_GameObject: {fileID: 1825180064880828}
   m_Enabled: 1
   m_Alpha: 1
   m_Interactable: 1

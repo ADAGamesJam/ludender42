@@ -23,6 +23,7 @@ public class Door : MonoBehaviour
     public void Open()
     {
         spriteRenderer.sprite = openSprite;
+        gameObject.layer = 0;
     }
 
 
