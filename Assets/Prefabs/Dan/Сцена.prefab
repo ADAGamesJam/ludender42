@@ -4113,6 +4113,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: cc9275f888aa2c04da885b1107a2ec20, type: 3}
   - {fileID: 21300000, guid: 41a5022fd45d6294ea9464c2711e92bd, type: 3}
   letterPause: 0.03
+  skipPause: 0.1
 --- !u!114 &114573298728302398
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5184,6 +5185,7 @@ MonoBehaviour:
   iconHolder: {fileID: 0}
   icons: []
   letterPause: 0.1
+  skipPause: 0.1
 --- !u!212 &212021077724797376
 SpriteRenderer:
   m_ObjectHideFlags: 1

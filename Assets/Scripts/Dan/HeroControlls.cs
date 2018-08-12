@@ -26,7 +26,8 @@ public class HeroControlls : MonoBehaviour
     private LayerMask maskWalls = 1 << 8;
     private LayerMask maskInteractables = 1 << 9;
     private LayerMask maskPitfall = 1 << 10;
-    private LayerMask maskCombined = 1 << 8 | 1 << 9 | 1 << 10;
+    private LayerMask maskDoor = 1 << 12;
+    private LayerMask maskCombined = 1 << 8 | 1 << 9 | 1 << 10 | 1 << 12;
     private Vector3 direction;
     private Coroutine coroutine;
     private Vector3 destination;
@@ -90,6 +91,15 @@ public class HeroControlls : MonoBehaviour
                 {
                     if (obj.phrases.Count > 0)
                         Dialog.instance.SetDialog(obj);
+                }
+            }
+            else
+            {
+                Door obj = hit.collider.gameObject.GetComponent<Door>();
+                if (obj != null)
+                {
+                    //if ( тут поставить условие наличия апгрейда )
+                    obj.Open();
                 }
             }
             spriteRenderer.flipX = false;
