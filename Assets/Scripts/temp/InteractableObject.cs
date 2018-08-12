@@ -3,17 +3,19 @@ using System.Collections.Generic;
 using UnityEngine;
 using System;
 
+
 public class InteractableObject : MonoBehaviour, IComparable<InteractableObject>
 {
-    public enum Type
+    [Serializable]
+    public class SingleDialog
     {
-        NPC,
-        Sign,
-        Collectable
+        public string message;
+        public IconType icon;
     }
 
     public Type type;
-    public string message;
+    public List<SingleDialog> phrases;
+    
     public int priority;
 
     public int CompareTo(InteractableObject other)
