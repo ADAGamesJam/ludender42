@@ -25,7 +25,8 @@ public class HeroControlls : MonoBehaviour
 
     private LayerMask maskWalls = 1 << 8;
     private LayerMask maskInteractables = 1 << 9;
-    private LayerMask maskCombined = 1 << 8 | 1 << 9;
+    private LayerMask maskPitfall = 1 << 10;
+    private LayerMask maskCombined = 1 << 8 | 1 << 9 | 1 << 10;
     private Vector3 direction;
     private Coroutine coroutine;
     private Vector3 destination;

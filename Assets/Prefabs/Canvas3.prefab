@@ -489,7 +489,7 @@ GameObject:
   - component: {fileID: 114750849766232546}
   - component: {fileID: 114928941347280344}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: Canvas3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -901,8 +901,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49cbba2003d123147bffd79e53daecb6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogBox: {fileID: 1209151708666660}
-  text: {fileID: 114078233426485686}
+  panel: {fileID: 0}
+  textHolder: {fileID: 0}
+  inputField: {fileID: 0}
+  iconHolder: {fileID: 0}
+  icons: []
   letterPause: 0.1
 --- !u!114 &114160075534958846
 MonoBehaviour:
