@@ -15,8 +15,13 @@ public class HeroControlls : MonoBehaviour
     [Header("Parameters")]
     [Tooltip("Время между нажатиями кнопок управления")]
     public float keystrokePause = 0.2f;
+
     [HideInInspector]
     public bool heroMoved = false;
+    [HideInInspector]
+    public bool canMove = true;
+    [HideInInspector]
+    public bool isTyping = false;
 
     private LayerMask maskWalls = 1 << 8;
     private LayerMask maskInteractables = 1 << 9;
@@ -25,6 +30,8 @@ public class HeroControlls : MonoBehaviour
     private Coroutine coroutine;
     private Vector3 destination;
     private float timer;
+    private SpriteRenderer spriteRenderer;
+    
 
     void Awake()
     {
@@ -40,6 +47,7 @@ public class HeroControlls : MonoBehaviour
         tileSize = tilemap.cellSize.x;
         transform.position = new Vector3((float)Math.Floor(transform.position.x) + tileSize/2, (float)Math.Floor(transform.position.y) + tileSize/2, transform.position.z);
         timer = keystrokePause;
+        spriteRenderer = GetComponent<SpriteRenderer>();
     }
 	
 	void Update()
@@ -62,6 +70,7 @@ public class HeroControlls : MonoBehaviour
                 //transform.Translate(Vector3.left * tileSize);
                 //CheckSurroundings();
                 direction = Vector3.left;
+                spriteRenderer.flipX = false;
             }
         }
         if (Input.GetKeyDown(KeyCode.S) && timer <= 0)
@@ -80,15 +89,20 @@ public class HeroControlls : MonoBehaviour
                 //transform.Translate(Vector3.right * tileSize);
                 //CheckSurroundings();
                 direction = Vector3.right;
+                spriteRenderer.flipX = true;
             }
         }
-        if (direction != Vector3.zero && heroMoved == false)
+        if (Input.GetKeyDown(KeyCode.E) && !isTyping)
+        {
+            CheckSurroundings();
+        }
+        if (direction != Vector3.zero && canMove /*&& heroMoved == false*/)
         {
             if (coroutine != null)
             {
                 StopCoroutine(coroutine);
                 transform.position = destination;
-                Dialog.Hide();
+                //Dialog.Hide();
                 //CheckSurroundings();
             }
             coroutine = StartCoroutine(Move());
@@ -100,7 +114,7 @@ public class HeroControlls : MonoBehaviour
     private void CheckSurroundings()
     {
         List<InteractableObject> objects;
-        Collider2D[] cols = Physics2D.OverlapCircleAll(transform.position, (tileSize*tileSize)/2, maskInteractables.value);
+        Collider2D[] cols = Physics2D.OverlapCircleAll(transform.position, (tileSize * tileSize) / 2, maskInteractables.value);
         if (cols.Length > 0)
         {
             objects = new List<InteractableObject>();
@@ -115,12 +129,12 @@ public class HeroControlls : MonoBehaviour
             if (objects.Count > 0)
             {
                 objects.Sort();
-                Dialog.Log(objects[0].message);
+                Dialog.instance.SetDialog(objects[0]);
             }
         }
         else
         {
-            Dialog.Hide();
+            Dialog.instance.Hide();
         }
     }
 
@@ -133,7 +147,6 @@ public class HeroControlls : MonoBehaviour
             yield return 0;
         }
         transform.position = destination;
-        CheckSurroundings();
         heroMoved = true;
     }
 }
