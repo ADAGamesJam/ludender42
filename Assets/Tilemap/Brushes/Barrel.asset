@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d5751a2c961df945a34295ccf5e576d, type: 3}
+  m_Name: Barrel
+  m_EditorClassIdentifier: 
+  m_Prefabs:
+  - {fileID: 1436229927414358, guid: a4eaad5d10656c54e9adb884707353cb, type: 2}
+  - {fileID: 1449985734781838, guid: aa4e0308eae0019499cdb419de5f2a71, type: 2}
+  - {fileID: 1631218295729004, guid: 04e3ec5a8f7890345993d74a607a96e4, type: 2}
+  m_PerlinScale: 0.5
+  m_Z: 0

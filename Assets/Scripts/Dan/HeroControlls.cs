@@ -162,9 +162,11 @@ public class HeroControlls : MonoBehaviour
                 obj.Kill();
             }
             else
-            { 
-            if (obj.phrases.Count > 0)
-                Dialog.instance.SetDialog(obj);
+            {
+                if (obj.phrases.Count > 0)
+                {
+                    Dialog.instance.SetDialog(obj);
+                }
             }
         }
 

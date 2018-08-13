@@ -8,16 +8,19 @@ public class Dialog : MonoBehaviour {
     public static Dialog instance;
 
     [Header("Panels for activation")]
-    public GameObject panel;
-    public GameObject textHolder;
+    public GameObject panelE11;
+    public GameObject panelHologram;
+    public GameObject panelSentry;
+    public GameObject panelIntercom;
 
-    [Header("Other")]
-    public Text inputField;
-    //public GameObject opitonSelector1;
-    //public GameObject opitonSelector2;
-    //public GameObject option1;
-    //public GameObject option2;
-    public Image iconHolder;
+    [Header("Text Fields")]
+    public Text textE11;
+    public Text textHologram;
+    public Text textSentry;
+    public Text textIntercom;
+
+    [Header("E11")]
+    public Image e11IconHolder;
     public List<Sprite> icons;
 
     [Header("Parameters")]
@@ -31,6 +34,7 @@ public class Dialog : MonoBehaviour {
     private InteractableObject targetDialog;
     private bool skip = false;
     private float skipTimer;
+    private Text inputField;
 
     private void Awake()
     {
@@ -48,45 +52,26 @@ public class Dialog : MonoBehaviour {
     {
         skipTimer = skipPause;
     }
-    
-
-    public void SetMessage(string message, IconType icon)
-    {
-        this.message = message;
-        SetIcon(icon);
-        Show();
-        StartTyping();
-    }
-
-    public void Show()
-    {
-        textHolder.SetActive(true);
-        panel.SetActive(true);
-    }
 
     public void Hide()
     {
-        panel.SetActive(false);
-
-        textHolder.SetActive(false);
+        panelE11.SetActive(false);
+        panelHologram.SetActive(false);
+        panelSentry.SetActive(false);
+        panelIntercom.SetActive(false);
     }
 
     public void SetDialog(InteractableObject interactableOnject)
     {
         targetDialog = interactableOnject;
-        Show();
         StartTyping();
-    }
-
-    public void SetIcon(IconType iconType)
-    {
-        iconHolder.sprite = icons[(int)iconType];
     }
 
     public void StartTyping()
     {
         HeroControlls.instance.canMove = false;
         HeroControlls.instance.isTyping = true;
+        
         coroutine = StartCoroutine(TypeText());
     }
 
@@ -94,7 +79,40 @@ public class Dialog : MonoBehaviour {
     {
         foreach (var phrase in targetDialog.phrases)
         {
-            SetIcon(phrase.icon);
+            Hide();
+            if (phrase.icon == IconType.E11_Normal)
+            {
+                panelE11.SetActive(true);
+                e11IconHolder.sprite = icons[0];
+                inputField = textE11;
+            }
+            if (phrase.icon == IconType.E11_Panic)
+            {
+                panelE11.SetActive(true);
+                e11IconHolder.sprite = icons[1];
+                inputField = textE11;
+            }
+            if (phrase.icon == IconType.E11_Thinking)
+            {
+                panelE11.SetActive(true);
+                e11IconHolder.sprite = icons[2];
+                inputField = textE11;
+            }
+            if (phrase.icon == IconType.Hologram)
+            {
+                panelHologram.SetActive(true);
+                inputField = textHologram;
+            }
+            if (phrase.icon == IconType.Intercom)
+            {
+                panelIntercom.SetActive(true);
+                inputField = textIntercom;
+            }
+            if (phrase.icon == IconType.Sentry)
+            {
+                panelSentry.SetActive(true);
+                inputField = textSentry;
+            }
             inputField.text = "";
             foreach (char letter in phrase.message.ToCharArray())
             {

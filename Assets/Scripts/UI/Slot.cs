@@ -98,10 +98,7 @@ public class Slot : MonoBehaviour , IDropHandler {
             }
 
         }
-
-        Debug.Log("Jump " + HeroControlls.instance.upgradeJump);
-        Debug.Log("Hack " +HeroControlls.instance.upgradeHack);
-        Debug.Log("Fight" + HeroControlls.instance.upgradeFight);
+         
         
     }
 }

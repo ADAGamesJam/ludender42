@@ -1,8 +1,11 @@
 ﻿public enum IconType
 {
-    E11,
-    NPC,
-    Sign
+    E11_Normal,
+    E11_Panic,
+    E11_Thinking,
+    Hologram,
+    Intercom,
+    Sentry
 }
 
 enum MoveInst
