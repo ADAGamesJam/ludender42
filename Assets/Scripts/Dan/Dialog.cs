@@ -79,6 +79,7 @@ public class Dialog : MonoBehaviour {
     {
         foreach (var phrase in targetDialog.phrases)
         {
+            
             Hide();
             if (phrase.icon == IconType.E11_Normal)
             {

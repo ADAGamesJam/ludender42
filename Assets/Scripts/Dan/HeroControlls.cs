@@ -82,7 +82,7 @@ public class HeroControlls : MonoBehaviour
             }
             else if (!isTyping)
             {
-                Skill(hit);
+                Skill(hit, Vector3.up);
             }
         }
         if (Input.GetKeyDown(KeyCode.A) && timer <= 0)
@@ -97,7 +97,7 @@ public class HeroControlls : MonoBehaviour
             }
             else if (!isTyping)
             {
-                Skill(hit);
+                Skill(hit, Vector3.left);
             }
             spriteRenderer.flipX = false;
         }
@@ -113,7 +113,7 @@ public class HeroControlls : MonoBehaviour
             }
             else if (!isTyping)
             {
-                Skill(hit);
+                Skill(hit, Vector3.down);
             }
         }
         if (Input.GetKeyDown(KeyCode.D) && timer <= 0)
@@ -128,7 +128,7 @@ public class HeroControlls : MonoBehaviour
             }
             else if (!isTyping)
             {
-                Skill(hit);
+                Skill(hit, Vector3.right);
             }
             spriteRenderer.flipX = true;
         }
@@ -151,7 +151,7 @@ public class HeroControlls : MonoBehaviour
     }
 
 
-    private void Skill(RaycastHit2D hit)
+    private void Skill(RaycastHit2D hit, Vector3 dir)
     {
         // Говорить
         InteractableObject obj = hit.collider.gameObject.GetComponent<InteractableObject>();
@@ -179,11 +179,12 @@ public class HeroControlls : MonoBehaviour
             obj1.Open();
         }
 
-        Debug.Log(((Vector3)hit.point).normalized - transform.position);
         // Прыгать
         if (hit.collider.gameObject.layer.Equals(10))
         {
-            if (upgradeJump)
+            RaycastHit2D[] hitPit = Physics2D.RaycastAll(transform.position, dir, 3f, maskPitfall.value);
+            
+            if (upgradeJump && hitPit.Length < 2)
             {
                 direction = ((Vector3)hit.point - transform.position).normalized*2;
             }
