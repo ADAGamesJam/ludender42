@@ -23,7 +23,7 @@ public class HeroControlls : MonoBehaviour
     [HideInInspector]
     public bool isTyping = false;
     [HideInInspector]
-    public List<char> keyList = new List<char>();
+    public List<int> keyList = new List<int>();
 
     public Camera camera;
 
@@ -63,7 +63,7 @@ public class HeroControlls : MonoBehaviour
         transform.position = new Vector3((float)Math.Floor(transform.position.x) + tileSize/2, (float)Math.Floor(transform.position.y) + tileSize/2, transform.position.z);
         timer = keystrokePause;
         spriteRenderer = GetComponent<SpriteRenderer>();
-        keyList.Add('D');
+        keyList.Add(7);
     }
 	
 	void Update()
@@ -72,7 +72,7 @@ public class HeroControlls : MonoBehaviour
         direction = Vector3.zero;
         if (Input.GetKeyDown(KeyCode.W) && timer <= 0)
         {
-            keyList.Add('W');
+            keyList.Add(3);
             RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector3.up * tileSize, 1f, maskCombined.value);
             if (!hit)
             {
@@ -87,7 +87,7 @@ public class HeroControlls : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.A) && timer <= 0)
         {
-            keyList.Add('A');
+            keyList.Add(2);
             RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector3.left * tileSize, 1f, maskCombined.value);
             if (!hit)
             {
@@ -103,7 +103,7 @@ public class HeroControlls : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.S) && timer <= 0)
         {
-            keyList.Add('S');
+            keyList.Add(4);
             RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector3.down * tileSize, 1f, maskCombined.value);
             if (!hit)
             {
@@ -118,7 +118,7 @@ public class HeroControlls : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.D) && timer <= 0)
         {
-            keyList.Add('D');
+            keyList.Add(1);
             RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector3.right * tileSize, 1f, maskCombined.value);
             if (!hit)
             {

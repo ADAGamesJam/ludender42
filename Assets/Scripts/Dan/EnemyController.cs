@@ -25,45 +25,38 @@ public class EnemyController : MonoBehaviour
 
     private void FindPath()
     {
-
-        Vector3 dir = (HeroControlls.instance.gameObject.transform.position - transform.position);
-        
-        switch (HeroControlls.instance.keyList.Last())
+        Vector3 screenPoint = HeroControlls.instance.camera.WorldToViewportPoint(transform.position);
+        bool onScreen = screenPoint.x > 0 && screenPoint.x < 1 && screenPoint.y > 0 && screenPoint.y < 1;
+        if (onScreen)
         {
-            case 'D':
-                moveInst = MoveInst.right;
-                break;
-            case 'A':
-                moveInst = MoveInst.left;
-                break;
-            case 'S':
-                moveInst = MoveInst.down;
-                break;
-            case 'W':
-                moveInst = MoveInst.up;
-                break;
+            Vector3 dir = (HeroControlls.instance.gameObject.transform.position - transform.position);
 
+            if (HeroControlls.instance.keyList.Last() == 1)
+            {
+                //if (dir.x > 0)
+                //{
+                moveInst = MoveInst.right;
+                HeroControlls.instance.keyList.Remove(1);
+                //}
+            }
+            else if (HeroControlls.instance.keyList.Last() == 2)
+            {
+                moveInst = MoveInst.left;
+                HeroControlls.instance.keyList.Remove(2);
+            }
+            else if (HeroControlls.instance.keyList.Last() == 3)
+            {
+                moveInst = MoveInst.up;
+                HeroControlls.instance.keyList.Remove(3);
+            }
+
+            else if (HeroControlls.instance.keyList.Last() == 4)
+            {
+                moveInst = MoveInst.down;
+               Debug.Log(HeroControlls.instance.keyList.Last());
+                HeroControlls.instance.keyList.Remove(4);
+            }
         }
-        //if (HeroControlls.instance.keyList.Last() == 'D')
-        //{
-        //    //if (dir.x > 0)
-        //    //{
-        //    moveInst = MoveInst.right;
-        //    //}
-        //}
-        //else if(HeroControlls.instance.keyList.Last() == 'A')
-        //    {
-        //        moveInst = MoveInst.left;
-        //    }
-        //else if(HeroControlls.instance.keyList.Last() == 'W')
-        //{
-        //        moveInst = MoveInst.up;
-           
-        //}
-        //else if(HeroControlls.instance.keyList.Last() == 'S')
-        //{
-        //    moveInst = MoveInst.down;
-        //}
     }
 
     public void Move()
@@ -137,12 +130,8 @@ public class EnemyController : MonoBehaviour
 
     private void Update()
     {
-        Vector3 screenPoint = HeroControlls.instance.camera.WorldToViewportPoint(transform.position);
-        bool onScreen = screenPoint.z > 0 && screenPoint.x > 0 && screenPoint.x < 1 && screenPoint.y > 0 && screenPoint.y < 1;
-        if (onScreen)
-        {
+       
             FindPath();
-        }
         
     }
 
