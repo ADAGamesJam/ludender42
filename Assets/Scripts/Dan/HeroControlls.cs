@@ -33,7 +33,16 @@ public class HeroControlls : MonoBehaviour
     private Vector3 destination;
     private float timer;
     private SpriteRenderer spriteRenderer;
-    
+
+    [HideInInspector]
+    public bool upgradeHack = false;
+    [HideInInspector]
+    public bool upgradeJump = false;
+    [HideInInspector]
+    public bool upgradeFight = false;
+
+
+
 
     void Awake()
     {
