@@ -1,0 +1,2 @@
+/Users/dimapokidov/Desktop/Gena/Temp/UnityVS_obj/Debug/UnityEditor.StandardEvents.csprojResolveAssemblyReference.cache
+/Users/dimapokidov/Desktop/Gena/Temp/UnityVS_obj/Debug/UnityEditor.StandardEvents.csproj.CoreCompileInputs.cache

@@ -1,0 +1,19 @@
+﻿<Properties StartupConfiguration="{D9EEBEDB-DFC3-5129-AB48-409427AE8119}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/UI/BagPack.cs">
+    <Files>
+      <File FileName="Assets/Scripts/UI/SoundButton.cs" Line="19" Column="22" />
+      <File FileName="Assets/Scripts/UI/DragHandler.cs" Line="5" Column="1" />
+      <File FileName="Assets/Scripts/UI/Slot.cs" Line="23" Column="57" />
+      <File FileName="Assets/Scripts/UI/PerkTextController.cs" Line="28" Column="41" />
+      <File FileName="Assets/Scripts/UI/ActivePerks.cs" Line="15" Column="1" />
+      <File FileName="Assets/Scripts/UI/BagPack.cs" Line="16" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Cinemachine PreferredExecutionTarget="Unity.Editor" />
+  <MultiItemStartupConfigurations />
+</Properties>
