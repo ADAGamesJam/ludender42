@@ -5,21 +5,24 @@ using UnityEngine;
 public class AIManager : MonoBehaviour
 {
     public List<Enemy> enemyList;
-    public Renderer renderManager;
+    
+    
 	void Start ()
 	{
-	    renderManager = GetComponent<Renderer>();
 	}
 	
-	
 	void Update () {
-	    if (renderManager.isVisible)
+	    if (HeroControlls.instance.heroMoved)
 	    {
 	        foreach (var enemy in enemyList)
 	        {
-	           enemy.DoMove(enemy);
+	           // enemy.DoMove(enemy);
 	        }
+
+	       HeroControlls.instance.heroMoved = false;
+
 	    }
+	       
 	}
 
     
