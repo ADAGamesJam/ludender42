@@ -25,7 +25,7 @@ public class EnemyController : MonoBehaviour
     private void FindPath()
     {
         Vector3 dir = (HeroControlls.instance.gameObject.transform.position - transform.position);
-        if (dir.x > dir.y)
+        if (dir.x < dir.y)
         {
             if (dir.x > 0)
             {
@@ -55,40 +55,64 @@ public class EnemyController : MonoBehaviour
         {
             if (moveInst == MoveInst.up)
             {
-                if (!Physics2D.Raycast(transform.position, Vector3.up * tileSize, 1f, maskCombined.value))
+                RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector3.up * tileSize, 1f, maskCombined.value);
+                if (!hit)
                 {
                     transform.Translate(Vector3.up * tileSize);
                     //CheckSurroundings();
                     //direction = Vector3.up;
                 }
+                else
+                {
+                    if (hit.collider.gameObject.tag.Equals("Player"))
+                        HeroControlls.instance.Kill();
+                }
             }
             if (moveInst == MoveInst.left)
             {
-                if (!Physics2D.Raycast(transform.position, Vector3.left * tileSize, 1f, maskCombined.value))
+                RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector3.left * tileSize, 1f, maskCombined.value);
+                if (!hit)
                 {
                     transform.Translate(Vector3.left * tileSize);
                     //CheckSurroundings();
                     //direction = Vector3.left;
                     spriteRenderer.flipX = false;
                 }
+                else
+                {
+                    if (hit.collider.gameObject.tag.Equals("Player"))
+                        HeroControlls.instance.Kill();
+                }
             }
             if (moveInst == MoveInst.down)
             {
-                if (!Physics2D.Raycast(transform.position, Vector3.down * tileSize, 1f, maskCombined.value))
+                RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector3.down * tileSize, 1f, maskCombined.value);
+                if (!hit)
                 {
                     transform.Translate(Vector3.down * tileSize);
                     //CheckSurroundings();
                     //direction = Vector3.down;
                 }
+                else
+                {
+                    if (hit.collider.gameObject.tag.Equals("Player"))
+                        HeroControlls.instance.Kill();
+                }
             }
             if (moveInst == MoveInst.right)
             {
-                if (!Physics2D.Raycast(transform.position, Vector3.right * tileSize, 1f, maskCombined.value))
+                RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector3.right * tileSize, 1f, maskCombined.value);
+                if (!hit)
                 {
                     transform.Translate(Vector3.right * tileSize);
                     //CheckSurroundings();
                     //direction = Vector3.right;
                     spriteRenderer.flipX = true;
+                }
+                else
+                {
+                    if (hit.collider.gameObject.tag.Equals("Player"))
+                        HeroControlls.instance.Kill();
                 }
             }
         }
@@ -97,5 +121,10 @@ public class EnemyController : MonoBehaviour
     private void Update()
     {
         FindPath();
+    }
+
+    public void OnDestroy()
+    {
+        EnemyManager.instance.Remove(this);
     }
 }

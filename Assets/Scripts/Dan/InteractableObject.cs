@@ -4,7 +4,7 @@ using UnityEngine;
 using System;
 
 
-public class InteractableObject : MonoBehaviour, IComparable<InteractableObject>
+public class InteractableObject : MonoBehaviour//, IComparable<InteractableObject>
 {
     [Serializable]
     public class SingleDialog
@@ -13,13 +13,23 @@ public class InteractableObject : MonoBehaviour, IComparable<InteractableObject>
         public IconType icon;
     }
 
+    public bool canFight = false;
     public Type type;
     public List<SingleDialog> phrases;
-    
-    public int priority;
 
-    public int CompareTo(InteractableObject other)
+    private SpriteRenderer spriteRenderer;
+    [SerializeField]
+    private Sprite deadSprite;
+
+    //public int CompareTo(InteractableObject other)
+    //{
+    //    return priority.CompareTo(other.priority);
+    //}
+
+    public void Kill()
     {
-        return priority.CompareTo(other.priority);
+        //spriteRenderer.sprite = deadSprite;
+        Destroy(gameObject);
     }
+
 }

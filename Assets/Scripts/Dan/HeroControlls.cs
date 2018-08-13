@@ -148,26 +148,33 @@ public class HeroControlls : MonoBehaviour
         InteractableObject obj = hit.collider.gameObject.GetComponent<InteractableObject>();
         if (obj != null)
         {
+            if (obj.canFight && upgradeFight)
+            {
+                obj.Kill();
+            }
+            else
+            { 
             if (obj.phrases.Count > 0)
                 Dialog.instance.SetDialog(obj);
+            }
         }
+
 
         // Открывать двери
         Door obj1 = hit.collider.gameObject.GetComponent<Door>();
         if (obj1 != null)
         {
-            //if ( тут поставить условие наличия апгрейда )
+            if (upgradeHack)
             obj1.Open();
         }
 
         Debug.Log(((Vector3)hit.point).normalized - transform.position);
-        // Открывать двери
+        // Прыгать
         if (hit.collider.gameObject.layer.Equals(10))
         {
-            //if (есть апгрейд)
+            if (upgradeJump)
             {
                 direction = ((Vector3)hit.point - transform.position).normalized*2;
-                Debug.Log(direction);
             }
         }
     }
@@ -210,5 +217,11 @@ public class HeroControlls : MonoBehaviour
         }
         transform.position = destination;
         heroMoved = true;
+    }
+
+    public void Kill()
+    {
+        //Сюда логику смерти
+        Debug.Log("E11 is DEAD!");
     }
 }
