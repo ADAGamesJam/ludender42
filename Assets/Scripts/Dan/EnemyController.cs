@@ -40,44 +40,42 @@ public class EnemyController : MonoBehaviour
             {
                 //if (dir.x > 0)
                 //{
-                HeroControlls.instance.moveFlag = false;
+                
                 moveInst = MoveInst.right;
                 if (HeroControlls.instance.keyList.Last() == 2) HeroControlls.instance.keyList.Remove(2);
                 else if (HeroControlls.instance.keyList.Last() == 1) HeroControlls.instance.keyList.RemoveAll(item => item == 1);
-                HeroControlls.instance.moveFlag = true;
+                
                 //}
             }
             else if ((HeroControlls.instance.keyList.Last() == 1 || HeroControlls.instance.keyList.Last() == 2) 
                      && (Math.Abs(transform.position.y - HeroControlls.instance.transform.position.y)) < 0.5
                      && transform.position.x > HeroControlls.instance.transform.position.x)
             {
-                HeroControlls.instance.moveFlag = false;
+                
                 moveInst = MoveInst.left;
                 if(HeroControlls.instance.keyList.Last() == 2 ) HeroControlls.instance.keyList.Remove(2);
                 else if (HeroControlls.instance.keyList.Last() == 1) HeroControlls.instance.keyList.RemoveAll(item => item == 1);
-                HeroControlls.instance.moveFlag = true;
+                
             }
             else if ((HeroControlls.instance.keyList.Last() == 3 || HeroControlls.instance.keyList.Last() == 4) 
                 && (Math.Abs(transform.position.x - HeroControlls.instance.transform.position.x)) < 0.5
                      && transform.position.y < HeroControlls.instance.transform.position.y)
             {
-                HeroControlls.instance.moveFlag = false;
+                
                 moveInst = MoveInst.up;
                 if (HeroControlls.instance.keyList.Last() == 3) HeroControlls.instance.keyList.Remove(3);
                 else if (HeroControlls.instance.keyList.Last() == 4) HeroControlls.instance.keyList.RemoveAll(item => item == 4);
-                HeroControlls.instance.moveFlag = true;
+                
             }
 
             else if ((HeroControlls.instance.keyList.Last() == 3 || HeroControlls.instance.keyList.Last() == 4)
                      && (Math.Abs(transform.position.x - HeroControlls.instance.transform.position.x)) < 0.5
                      && transform.position.y > HeroControlls.instance.transform.position.y)
             {
-                HeroControlls.instance.moveFlag = false;
                 moveInst = MoveInst.down;
                 HeroControlls.instance.keyList.Remove(3);
                 if (HeroControlls.instance.keyList.Last() == 3) HeroControlls.instance.keyList.Remove(3);
                 else if (HeroControlls.instance.keyList.Last() == 4) HeroControlls.instance.keyList.RemoveAll(item => item == 4);
-                HeroControlls.instance.moveFlag = true;
             }
             
            // DistanceMove();
