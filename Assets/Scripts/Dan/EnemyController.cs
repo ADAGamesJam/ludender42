@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public class EnemyController : MonoBehaviour
@@ -24,29 +25,45 @@ public class EnemyController : MonoBehaviour
 
     private void FindPath()
     {
+
         Vector3 dir = (HeroControlls.instance.gameObject.transform.position - transform.position);
-        if (dir.x < dir.y)
+        
+        switch (HeroControlls.instance.keyList.Last())
         {
-            if (dir.x > 0)
-            {
+            case 'D':
                 moveInst = MoveInst.right;
-            }
-            else
-            {
+                break;
+            case 'A':
                 moveInst = MoveInst.left;
-            }
-        }
-        else
-        {
-            if (dir.y > 0)
-            {
-                moveInst = MoveInst.up;
-            }
-            else
-            {
+                break;
+            case 'S':
                 moveInst = MoveInst.down;
-            }
+                break;
+            case 'W':
+                moveInst = MoveInst.up;
+                break;
+
         }
+        //if (HeroControlls.instance.keyList.Last() == 'D')
+        //{
+        //    //if (dir.x > 0)
+        //    //{
+        //    moveInst = MoveInst.right;
+        //    //}
+        //}
+        //else if(HeroControlls.instance.keyList.Last() == 'A')
+        //    {
+        //        moveInst = MoveInst.left;
+        //    }
+        //else if(HeroControlls.instance.keyList.Last() == 'W')
+        //{
+        //        moveInst = MoveInst.up;
+           
+        //}
+        //else if(HeroControlls.instance.keyList.Last() == 'S')
+        //{
+        //    moveInst = MoveInst.down;
+        //}
     }
 
     public void Move()
@@ -120,7 +137,13 @@ public class EnemyController : MonoBehaviour
 
     private void Update()
     {
-        FindPath();
+        Vector3 screenPoint = HeroControlls.instance.camera.WorldToViewportPoint(transform.position);
+        bool onScreen = screenPoint.z > 0 && screenPoint.x > 0 && screenPoint.x < 1 && screenPoint.y > 0 && screenPoint.y < 1;
+        if (onScreen)
+        {
+            FindPath();
+        }
+        
     }
 
     public void OnDestroy()
