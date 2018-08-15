@@ -4,10 +4,16 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 
 
-public class Slot : MonoBehaviour , IDropHandler {
+public class Slot : MonoBehaviour, IDropHandler
+{
 
-    public GameObject item {
-        get 
+    public AudioClip equip;
+
+    private bool canPlaySound = true;
+
+    public GameObject item
+    {
+        get
         {
             if (transform.childCount > 0)
             {
@@ -19,8 +25,9 @@ public class Slot : MonoBehaviour , IDropHandler {
     }
 
     public void OnDrop(PointerEventData eventData)
-    {   if(this.gameObject.transform.childCount < 1 )
-        DragHandler.itemBeingDragged.transform.SetParent(transform);
+    {
+        if (this.gameObject.transform.childCount < 1)
+            DragHandler.itemBeingDragged.transform.SetParent(transform);
     }
 
     public void Update()
@@ -29,14 +36,12 @@ public class Slot : MonoBehaviour , IDropHandler {
         // Upgrate Fight
         if (transform.childCount > 0 && (gameObject.name == "Slot1" || gameObject.name == "Slot2"))
         {
-            
+
             if (transform.GetChild(0).name == "Image")
             {
                 HeroControlls.instance.upgradeFight = true;
-
             }
 
-                
         }
         if (transform.childCount > 0 && (gameObject.name == "Slot3" || gameObject.name == "Slot4" || gameObject.name == "Slot5"))
         {
@@ -56,16 +61,14 @@ public class Slot : MonoBehaviour , IDropHandler {
         if (transform.childCount > 0 && (gameObject.name == "Slot1" || gameObject.name == "Slot2"))
         {
 
-            if ( transform.childCount > 0 && transform.GetChild(0).name == "Image 1")
+            if (transform.childCount > 0 && transform.GetChild(0).name == "Image 1")
             {
                 HeroControlls.instance.upgradeHack = true;
-
             }
 
 
-
         }
-         if (gameObject.name == "Slot3" || gameObject.name == "Slot4" || gameObject.name == "Slot5")
+        if (gameObject.name == "Slot3" || gameObject.name == "Slot4" || gameObject.name == "Slot5")
         {
             if (transform.childCount > 0)
             {
@@ -82,12 +85,11 @@ public class Slot : MonoBehaviour , IDropHandler {
             if (transform.childCount > 0 && transform.GetChild(0).name == "Image 2")
             {
                 HeroControlls.instance.upgradeJump = true;
-
             }
 
-
+            
         }
-         if (gameObject.name == "Slot3" || gameObject.name == "Slot4" || gameObject.name == "Slot5")
+        if (gameObject.name == "Slot3" || gameObject.name == "Slot4" || gameObject.name == "Slot5")
         {
             if (transform.childCount > 0)
             {
@@ -98,7 +100,17 @@ public class Slot : MonoBehaviour , IDropHandler {
             }
 
         }
-         
-        
+
+        // Звук вставки апгрейда
+        if (transform.childCount > 0 && canPlaySound)
+        {
+            canPlaySound = false;
+            MusicaManager.instance.PlaySound(equip);
+        }
+        if (transform.childCount == 0)
+        {
+            canPlaySound = true;
+        }
+
     }
 }

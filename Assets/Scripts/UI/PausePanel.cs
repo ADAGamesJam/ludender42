@@ -34,7 +34,7 @@ public class PausePanel : MonoBehaviour {
         pauseButton.SetActive(true);
         bagpackButton.SetActive(true);
 
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene("Game", LoadSceneMode.Single);
 
     }
 
@@ -44,7 +44,7 @@ public class PausePanel : MonoBehaviour {
         pauseButton.SetActive(true);
         bagpackButton.SetActive(true);
 
-        SceneManager.LoadScene("MainMenu");
+        SceneManager.LoadScene("MainMenu", LoadSceneMode.Single);
 
     }
 }

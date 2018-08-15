@@ -8,22 +8,16 @@ public class SceneTransition : MonoBehaviour {
 
     public void GameLoader()
     {
-
-        SceneManager.LoadScene("SampleScene");
-
+        SceneManager.LoadScene("Game", LoadSceneMode.Single);
     }
 
     public void CreditsLoader()
     {
-        SceneManager.LoadScene("Credits");
-
+        SceneManager.LoadScene("Credits", LoadSceneMode.Single);
     }
 
     public void MainMenu()
     {
-       
-
-        SceneManager.LoadScene("MainMenu");
-
+        SceneManager.LoadScene("MainMenu", LoadSceneMode.Single);
     }
 }

@@ -27,6 +27,12 @@ public class Dialog : MonoBehaviour {
     public float letterPause = 0.01f;
     public float skipPause = 0.1f;
 
+    [Header("Sounds")]
+    public AudioClip e11Audio;
+    public AudioClip aliceAudio;
+    public AudioClip sentryAudio;
+    public AudioClip intercomAudio;
+
 
     private string message;
     private Coroutine coroutine;
@@ -86,33 +92,39 @@ public class Dialog : MonoBehaviour {
                 panelE11.SetActive(true);
                 e11IconHolder.sprite = icons[0];
                 inputField = textE11;
+                //MusicaManager.instance.PlaySound(e11Audio);
             }
             if (phrase.icon == IconType.E11_Panic)
             {
                 panelE11.SetActive(true);
                 e11IconHolder.sprite = icons[1];
                 inputField = textE11;
+               // MusicaManager.instance.PlaySound(e11Audio);
             }
             if (phrase.icon == IconType.E11_Thinking)
             {
                 panelE11.SetActive(true);
                 e11IconHolder.sprite = icons[2];
                 inputField = textE11;
+                //MusicaManager.instance.PlaySound(e11Audio);
             }
             if (phrase.icon == IconType.Hologram)
             {
                 panelHologram.SetActive(true);
                 inputField = textHologram;
+                //MusicaManager.instance.PlaySound(aliceAudio);
             }
             if (phrase.icon == IconType.Intercom)
             {
                 panelIntercom.SetActive(true);
                 inputField = textIntercom;
+               // MusicaManager.instance.PlaySound(intercomAudio);
             }
             if (phrase.icon == IconType.Sentry)
             {
                 panelSentry.SetActive(true);
                 inputField = textSentry;
+                //MusicaManager.instance.PlaySound(sentryAudio);
             }
             inputField.text = "";
             foreach (char letter in phrase.message.ToCharArray())

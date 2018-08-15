@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 using System;
+using UnityEngine.SceneManagement;
 
 public class HeroControlls : MonoBehaviour
 {
@@ -16,6 +17,13 @@ public class HeroControlls : MonoBehaviour
     [Tooltip("Время между нажатиями кнопок управления")]
     public float keystrokePause = 0.2f;
 
+    [Header("Sound Clips")]
+    public AudioClip step;
+    public AudioClip jump;
+    public AudioClip door;
+    public AudioClip attack;
+
+
     [HideInInspector]
     public bool heroMoved = false;
     [HideInInspector]
@@ -25,7 +33,7 @@ public class HeroControlls : MonoBehaviour
     [HideInInspector]
     public List<int> keyList = new List<int>();
 
-    public Camera camera;
+    
 
     private LayerMask maskWalls = 1 << 8;
     private LayerMask maskInteractables = 1 << 9;
@@ -44,8 +52,11 @@ public class HeroControlls : MonoBehaviour
     public bool upgradeJump = false;
     [HideInInspector]
     public bool upgradeFight = false;
+    [SerializeField]
+    public InteractableObject deathDialog;
+    public GameObject losePanel;
 
-
+    public Camera cameraMain;
 
 
     void Awake()
@@ -145,6 +156,7 @@ public class HeroControlls : MonoBehaviour
                 //Dialog.Hide();
                 //CheckSurroundings();
             }
+            MusicaManager.instance.PlaySound(step);
             coroutine = StartCoroutine(Move());
             timer = keystrokePause;
         }
@@ -153,19 +165,25 @@ public class HeroControlls : MonoBehaviour
 
     private void Skill(RaycastHit2D hit, Vector3 dir)
     {
-        // Говорить
+        // Говорить или убивать
         InteractableObject obj = hit.collider.gameObject.GetComponent<InteractableObject>();
         if (obj != null)
         {
-            if (obj.canFight && upgradeFight)
+            if (obj.canFight)
             {
-                obj.Kill();
+                if (upgradeFight)
+                {
+                    obj.Kill();
+                    MusicaManager.instance.PlaySound(attack);
+                }
             }
             else
             {
                 if (obj.phrases.Count > 0)
                 {
                     Dialog.instance.SetDialog(obj);
+                    if (obj.isIntercom)
+                        Destroy(obj.gameObject);
                 }
             }
         }
@@ -176,17 +194,21 @@ public class HeroControlls : MonoBehaviour
         if (obj1 != null)
         {
             if (upgradeHack)
-            obj1.Open();
+            {
+                obj1.Open();
+                MusicaManager.instance.PlaySound(door);
+            }
         }
 
         // Прыгать
         if (hit.collider.gameObject.layer.Equals(10))
         {
-            RaycastHit2D[] hitPit = Physics2D.RaycastAll(transform.position, dir, 3f, maskPitfall.value);
+            RaycastHit2D[] hitPit = Physics2D.RaycastAll(transform.position, dir, 1.5f, maskPitfall.value);
             
             if (upgradeJump && hitPit.Length < 2)
             {
                 direction = ((Vector3)hit.point - transform.position).normalized*2;
+                MusicaManager.instance.PlaySound(jump);
             }
         }
     }
@@ -233,7 +255,17 @@ public class HeroControlls : MonoBehaviour
 
     public void Kill()
     {
-        //Сюда логику смерти
+
+
+        Dialog.instance.SetDialog(deathDialog);
+        //canMove = false;
+        //losePanel.SetActive(true);
+
         Debug.Log("E11 is DEAD!");
     }
+
+    //public void Reload()
+    //{
+    //    SceneManager.LoadScene(0);
+    //}
 }

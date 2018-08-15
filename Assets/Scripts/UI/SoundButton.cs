@@ -22,7 +22,7 @@ public class SoundButton : MonoBehaviour {
     private void Awake()
     {
         image = soundButton.GetComponent<Image>();
-        isSound = true;
+      //  isSound = true;
     }
 
     private void Start()
@@ -68,7 +68,7 @@ public class SoundButton : MonoBehaviour {
 
 
         }
-            
+        Debug.Log(isSound);
     }
 
 

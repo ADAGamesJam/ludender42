@@ -26,7 +26,7 @@ public class EnemyController : MonoBehaviour
 
     private void FindPath()
     {
-        Vector3 screenPoint = HeroControlls.instance.camera.WorldToViewportPoint(transform.position);
+        Vector3 screenPoint = HeroControlls.instance.cameraMain.WorldToViewportPoint(transform.position);
         bool onScreen = screenPoint.x > 0 && screenPoint.x < 1 && screenPoint.y > 0 && screenPoint.y < 1;
         if (onScreen)
         {
@@ -40,32 +40,32 @@ public class EnemyController : MonoBehaviour
             {
                 //if (dir.x > 0)
                 //{
-                
+
                 moveInst = MoveInst.right;
                 if (HeroControlls.instance.keyList.Last() == 2) HeroControlls.instance.keyList.Remove(2);
                 else if (HeroControlls.instance.keyList.Last() == 1) HeroControlls.instance.keyList.RemoveAll(item => item == 1);
-                
+
                 //}
             }
-            else if ((HeroControlls.instance.keyList.Last() == 1 || HeroControlls.instance.keyList.Last() == 2) 
+            else if ((HeroControlls.instance.keyList.Last() == 1 || HeroControlls.instance.keyList.Last() == 2)
                      && (Math.Abs(transform.position.y - HeroControlls.instance.transform.position.y)) < 0.5
                      && transform.position.x > HeroControlls.instance.transform.position.x)
             {
-                
+
                 moveInst = MoveInst.left;
-                if(HeroControlls.instance.keyList.Last() == 2 ) HeroControlls.instance.keyList.Remove(2);
+                if (HeroControlls.instance.keyList.Last() == 2) HeroControlls.instance.keyList.Remove(2);
                 else if (HeroControlls.instance.keyList.Last() == 1) HeroControlls.instance.keyList.RemoveAll(item => item == 1);
-                
+
             }
-            else if ((HeroControlls.instance.keyList.Last() == 3 || HeroControlls.instance.keyList.Last() == 4) 
+            else if ((HeroControlls.instance.keyList.Last() == 3 || HeroControlls.instance.keyList.Last() == 4)
                 && (Math.Abs(transform.position.x - HeroControlls.instance.transform.position.x)) < 0.5
                      && transform.position.y < HeroControlls.instance.transform.position.y)
             {
-                
+
                 moveInst = MoveInst.up;
                 if (HeroControlls.instance.keyList.Last() == 3) HeroControlls.instance.keyList.Remove(3);
                 else if (HeroControlls.instance.keyList.Last() == 4) HeroControlls.instance.keyList.RemoveAll(item => item == 4);
-                
+
             }
 
             else if ((HeroControlls.instance.keyList.Last() == 3 || HeroControlls.instance.keyList.Last() == 4)
@@ -77,37 +77,9 @@ public class EnemyController : MonoBehaviour
                 if (HeroControlls.instance.keyList.Last() == 3) HeroControlls.instance.keyList.Remove(3);
                 else if (HeroControlls.instance.keyList.Last() == 4) HeroControlls.instance.keyList.RemoveAll(item => item == 4);
             }
-            
-           // DistanceMove();
-        }
-    }
 
-    public void DistanceMove()
-    {
-        if ((HeroControlls.instance.transform.position.x > transform.position.x 
-             && Math.Abs(transform.position.x - HeroControlls.instance.transform.position.x) > 0.5))
-        {
-            Debug.Log("Piska1");
-            moveInst = MoveInst.up;
+            // DistanceMove();
         }
-        else if (HeroControlls.instance.transform.position.y > transform.position.y 
-                 && Math.Abs(transform.position.y - HeroControlls.instance.transform.position.y) > 0.5)
-        {
-            Debug.Log("Piska2");
-            moveInst = MoveInst.down;
-        }
-        /*else if (HeroControlls.instance.transform.position.y < transform.position.y 
-                 && Math.Abs(transform.position.y - HeroControlls.instance.transform.position.y) > 0.5)
-        {
-            Debug.Log("Piska3");
-            moveInst = MoveInst.down;
-        }
-        else if (HeroControlls.instance.transform.position.x < transform.position.x 
-                 && Math.Abs(transform.position.x - HeroControlls.instance.transform.position.x) > 0.5)
-        {
-            Debug.Log("Piska4");
-            moveInst = MoveInst.left;
-        }*/
     }
 
     public void Move()
@@ -181,9 +153,7 @@ public class EnemyController : MonoBehaviour
 
     private void Update()
     {
-       
-            FindPath();
-        
+        Move();
     }
 
     public void OnDestroy()

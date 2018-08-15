@@ -3,33 +3,35 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class MusicScript : MonoBehaviour {
-
+public class MusicScript : MonoBehaviour
+{
+    public static MusicScript instance;
     public AudioClip musicClip1;
     public AudioClip musicClip2;
 
     public AudioSource musicSource;
-	// Use this for initialization
-	void Start () {
-        musicSource.clip = musicClip1;
-        //musicSource.clip = musicClip2;
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-        if (!SoundButton.instance.isSound)  //&& SceneManager.GetActiveScene().name == "MainMenu")
+    // Use this for initialization
+    void Start()
+    {
+        if (instance == null)
         {
-            musicSource.clip = musicClip1;
-            musicSource.Play();
-
+            instance = this;
         }
-        /*if(SoundButton.instance.isSound ) //&& SceneManager.GetActiveScene().name == "SampleScene"){
+        if (instance != this)
         {
+            Destroy(this);
+        }
+        DontDestroyOnLoad(gameObject);
+       // musicSource.clip = musicClip1;
+        //musicSource.clip = musicClip2;
             musicSource.clip = musicClip2;
             musicSource.Play();
+    }
 
-        }*/
+    // Update is called once per frame
+    void Update()
+    {
 
-	}
+
+    }
 }

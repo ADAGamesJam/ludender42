@@ -130,13 +130,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be6f8c913b3bce242b042a588b1aa1f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isIntercom: 0
   canFight: 1
   phrases:
   - message: "\u041F\u0430\u043C \u043F\u0430\u043C, \u0431\u043B\u044F"
     icon: 1
   - message: '...'
     icon: 0
-  deadSprite: {fileID: 0}
+  deadSprite: {fileID: 21300000, guid: 1c28567224cc45a4491a2d221f870296, type: 3}
 --- !u!212 &212431503016383804
 SpriteRenderer:
   m_ObjectHideFlags: 1
